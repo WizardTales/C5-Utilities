@@ -1,0 +1,849 @@
+source,Titel,Basiskriterien,dest,SN
+OIS-01,Informationssicherheits-managementsystem (ISMS),"Der Cloud-Anbieter betreibt ein Informationssicherheitsmanagementsystem (ISMS) nach ISO/IEC 27001. Der Anwendungsbereich des ISMS umfasst die Organisationseinheiten, Standorte und Verfahren des Cloud-Anbieters zur Bereitstellung des Cloud-Dienstes.
+
+Die Maßnahmen für Aufbau, Verwirklichung, Aufrechterhaltung und fortlaufende Verbesserung des ISMS sind dokumentiert. 
+Die Dokumentation umfasst:
+
+• Anwendungsbereich des ISMS (Abschnitt 4.3 von ISO/IEC 27001)
+
+• Erklärung zur Anwendbarkeit (Abschnitt 6.1.3)
+
+• Ergebnisse der letzten Managementbewertung (Abschnitt 9.3).",4.1 - 10.2,0
+OIS-02,Leitlinie zur Informationssicherheit,"Die oberste Leitung des Cloud-Anbieters hat eine Leitlinie zur Informationssicherheit verabschiedet und an die internen und externen Mitarbeiter sowie die Cloud-Kunden kommuniziert. Die Leitlinie beschreibt
+
+• den Stellenwert der Informationssicherheit, abgeleitet von den Anforderungen der Cloud-Kunden mit Bezug zur Informationssicherheit,
+
+• die Sicherheitsziele und das angestrebte Sicherheitsniveau, abgeleitet von den Geschäftszielen und Aufgaben des Cloud-Anbieters,
+
+• die wichtigsten Aspekte der Sicherheitsstrategie zum Erreichen der gesetzten Sicherheitsziele
+
+• die Organisationsstruktur für Informationssicherheit im Anwendungsbereich des ISMS.","6.2
+A.5.1
+A.5.2",0
+OIS-03,Schnittstellen und Abhängigkeiten,"Schnittstellen und Abhängigkeiten zwischen Tätigkeiten zur Bereitstellung des Cloud-Dienstes, die vom Cloud-Anbieter selbst durchgeführt werden und Tätigkeiten, die von Dritten durchgeführt werden, sind dokumentiert und kommuniziert. 
+Dies umfasst den Umgang mit folgenden Ereignissen:
+
+• Schwachstellen
+
+• Sicherheitsvorfälle und
+
+• Störungen
+
+Art und Umfang der Dokumentation orientieren sich am Informationsbedarf sachverständigen Personals der betroffenen Organisationen, um die Tätigkeiten angemessen durchführen zu können.
+
+Die Kommunikation von Änderungen an den Schnittstellen und Abhängigkeiten erfolgt so zeitnah, dass die betroffenen Dritten mit organisatorischen und technischen Maßnahmen angemessen darauf reagieren können, bevor diese wirksam werden.",4.3,-
+OIS-04,Aufgabentrennung,"Miteinander in Konflikt stehende Aufgaben und Verantwortlichkeitsbereiche sind auf Basis einer Risikobeurteilung gemäß OIS-06 getrennt, um Risiken unbefugter oder unbeabsichtigter Änderungen oder Missbrauch der im Cloud-Dienst verarbeiteten, gespeicherten oder übertragenen Daten der Cloud-Kunden zu reduzieren.
+
+Die Risikobeurteilung umfasst folgende Bereiche, soweit diese zur Bereitstellung des Cloud-Dienstes anwendbar sind und im Verantwortungsbereich des Cloud-Anbieters liegen:
+
+• Verwaltung von Rechteprofilen, Genehmigung und Zuweisung von Zugangs- und Zugriffsberechtigungen (vgl. IDM-01),
+
+• Entwicklung, Test und Freigabe von Änderungen (vgl. DEV-01),
+
+• Betrieb der Systemkomponenten.
+
+Kann aus organisatorischen oder technischen Gründen keine Trennung eingerichtet werden, sind Maßnahmen zur Überwachung der Tätigkeiten eingerichtet, um unbefugte oder unbeabsichtigte Änderungen sowie Missbrauch aufzudecken und entsprechende Gegenmaßnahmen einzuleiten.",A.5.3,-
+OIS-05,Kontakt zu relevanten Behörden und Interessenverbänden,"Der Cloud-Anbieter pflegt Kontakte zu relevanten Behörden und Ministerien, um sich über aktuelle Schwachstellen und Gefährdungen zu informieren. Die Informationen fließen in die Verfahren zum Umgang mit Risiken (vgl. OIS-06) und Schwachstellen (vgl. OPS-19) ein.","A.5.5
+A.5.6",-
+OIS-06,Richtlinie für den Umgang mit Risiken,"Richtlinien und Anweisungen für das Verfahren zum Umgang mit Risiken sind gemäß SP-01 hinsichtlich der folgenden Aspekte dokumentiert, kommuniziert und bereitgestellt:
+
+• Identifikation von Risiken im Zusammenhang mit dem Verlust der Vertraulichkeit, Integrität, Verfügbarkeit und Authentizität von Informationen innerhalb des Anwendungsbereichs des ISMS und Zuweisung von Risikoeigentümern,
+
+• Analyse der Eintrittswahrscheinlichkeiten und Auswirkungen bei Eintritt sowie Bestimmung des Risikoniveaus,
+
+• Bewertung der Risikoanalyse auf Basis definierter Kriterien zur Risikoakzeptanz und Priorisierung der Behandlung,
+
+• Behandlung der Risiken durch Maßnahmen, einschließlich Genehmigung der Maßnahmen und Akzeptanz der Restrisiken durch Risikoeigentümer,
+
+• Dokumentation der Tätigkeiten zur Anwendung des Verfahrens, um bei wiederholter Anwendung konsistente, gültige und vergleichbare Ergebnisse zu erhalten.","6.1
+8.2
+8.3",0
+OIS-07,Anwendung des Verfahrens für den Umgang mit Risiken,"Der Cloud-Anbieter wendet das Verfahren zum Umgang mit Risiken anlassbezogen, aber mindestens jährlich an. Beim Identifizieren von Risiken werden folgende Aspekte berücksichtigt, soweit diese für den bereitgestellten Cloud-Dienst anwendbar sind und im Verantwortungsbereich des Cloud-Anbieters liegen:
+
+• Verarbeitung, Speicherung oder Übertragung von Daten der Cloud-Kunden mit unterschiedlichen Schutzbedarfen,
+
+• Auftreten von Schwachstellen und Störungen in technischen Schutzmaßnahmen zur Separierung gemeinsam genutzter Ressourcen,
+
+• Angriffe über Zugangspunkte, einschließlich Schnittstellen, die aus öffentlichen Netzen erreichbar sind,
+
+• Miteinander in Konflikt stehende Aufgaben und Verantwortlichkeitsbereiche, die aus organisatorischen oder technischen Gründen nicht getrennt werden können,
+
+• Abhängigkeiten von Subdienstleistern.
+
+Die Analyse, Bewertung und Behandlung der Risiken, einschließlich der Genehmigung der Maßnahmen und Akzeptanz der Restrisiken, wird mindestens jährlich durch die Risikoeigentümer auf Angemessenheit überprüft. ","6.1
+8.2
+8.3",-
+SP-01,"Dokumentation, Kommunikation und Bereitstellung von Richtlinien und Anweisungen","Von der Leitlinie zur Informationssicherheit abgeleitete Richtlinien und Anweisungen sind nach einer einheitlichen Struktur dokumentiert. Sie werden sach- und bedarfsgerecht an alle internen und externen Mitarbeiter des Cloud-Anbieters kommuniziert und bereitgestellt.
+
+Die Richtlinien und Anweisungen sind versioniert und von der obersten Leitung des Cloud-Anbieters oder von dazu autorisiertem Personal genehmigt.
+
+Die Richtlinien und Anweisungen beschreiben mindestens die folgenden Aspekte:
+
+• Ziele,
+
+• Anwendungsbereiche,
+
+• Rollen und Verantwortlichkeiten, einschließlich Anforderungen an die Qualifikation des Personals und das Einrichten von Vertretungsregelungen,
+
+• Rollen und Abhängigkeiten von anderen Organisationen (insbesondere Cloud-Kunden und Subdienstleister),
+
+• Maßnahmen zur Umsetzung der Sicherheitsstrategie,
+
+• anwendbare rechtliche und regulatorischer Anforderungen.",A.5.1,-
+SP-02,Überprüfung und Freigabe von Richtlinien und Anweisungen,"Die Richtlinien und Anweisungen zur Informationssicherheit werden mindestens jährlich durch sachverständiges Personal des Cloud-Anbieters auf ihre Angemessenheit überprüft. 
+Die Überprüfung berücksichtigt mindestens die folgenden Aspekte:
+
+• Organisatorische und technische Änderungen in den Verfahren zur Bereitstellung des Cloud-Dienstes,
+
+• rechtliche und regulatorische Änderungen im Umfeld des Cloud-Anbieters.
+
+Überarbeitete Richtlinien und Anweisungen werden genehmigt, bevor diese Gültigkeit erlangen.",A.5.1,-
+SP-03,Abweichungen von bestehenden Richtlinien und Anweisungen,"Ausnahmen von Richtlinien und Anweisungen zur Informationssicherheit durchlaufen das Verfahren zum Umgang mit Risiken gemäß OIS-06, einschließlich Genehmigung der Ausnahmen und Akzeptanz der damit einhergehenden Risiken durch die Risikoeigentümer.
+
+Die Genehmigung von Ausnahmen ist dokumentiert, zeitlich befristet und wird mindestens jährlich durch die Risikoeigentümer auf Angemessenheit überprüft.",-,n/a
+HR-01,Überprüfung der Qualifikation und Vertrauenswürdigkeit,"Die Qualifikation und Vertrauenswürdigkeit aller internen und externen Mitarbeiter des Cloud-Anbieters mit Zugriff auf Daten der Cloud-Kunden oder Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters, die für die Bereitstellung des Cloud-Dienstes in der Produktionsumgebung zuständig sind, wird vor Beginn des Beschäftigungsverhältnisses gemäß der lokalen Gesetzgebung und Regulierung durch den Cloud-Anbieter überprüft. Soweit rechtlich zulässig, umfasst die Überprüfung folgende Bereiche:
+
+• Verifikation der Person durch Personalausweis
+
+• Verifikation des Lebenslaufs
+
+• Verifikation von akademischen Titeln und Abschlüssen
+
+• Führungszeugnis bzw. nationale Pendants
+
+• Bewerten des Risikos der Erpressbarkeit.",A.6.1,-
+HR-02,Beschäftigungs- und Vertragsbedingungen,"Die internen und externen Mitarbeiter des Cloud-Anbieters werden in Beschäftigungs- und Vertragsbedingungen auf die Einhaltung anwendbarer Richtlinien und Anweisungen mit Bezug zur Informationssicherheit verpflichtet.
+
+Die Leitlinie zur Informationssicherheit sowie die davon abgeleiteten Richtlinien und Anweisungen sind durch die internen und externen Mitarbeiter nachweislich zur Kenntnis zu nehmen, bevor Zugriff auf Daten der Cloud-Kunden oder Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters, die für die Bereitstellung des Cloud-Dienstes in der Produktionsumgebung verwendet werden, gewährt wird.",A.6.2,-
+HR-03,Programm zur Sicherheitsausbildung und Sensibilisierung,"Der Cloud-Anbieter betreibt ein zielgruppenorientiertes Sensibilisierungs- und Schulungsprogramm, das von allen internen und externen Mitarbeitern des Cloud-Anbieters regelmäßig durchlaufen wird. Das Programm wird, ausgehend von Änderungen an Richtlinien und Anweisungen sowie der aktuellen Bedrohungslage, regelmäßig aktualisiert und umfasst die folgenden Aspekte:
+
+• Umgang mit Systemkomponenten, die für die Bereitstellung des Cloud-Dienstes in der Produktionsumgebung verwendet werden, gemäß den anwendbaren Richtlinien und Anweisungen,
+
+• Umgang mit Daten der Cloud-Kunden gemäß den anwendbaren Richtlinien und Anweisungen,
+
+• Information über die aktuelle Bedrohungslage,
+
+• richtiges Verhalten bei Sicherheitsvorfällen.",A.6.3,-
+HR-04,Maßregelungsprozess,"Bei Verstößen gegen Richtlinien und Anweisungen erfolgen Maßregelungen gemäß eines definierten Prozesses, der folgende Aspekte umfasst:
+
+• Prüfung, ob tatsächlich ein Verstoß vorliegt
+
+• Berücksichtigung der Art und Schwere des Verstoßes sowie dessen Auswirkung.
+
+Die internen und externen Mitarbeiter des Cloud-Anbieters sind über mögliche Maßregelungen informiert.
+
+Die Anwendung von Maßregelungen wird in geeigneter Weise dokumentiert.",A.6.4,-
+HR-05,Verantwortlichkeiten bei Beendigung oder Änderung der Beschäftigung,"Interne sowie externe Mitarbeiter sind nachweislich darüber informiert, wie lange welche Verantwortlichkeiten, die sich aus den Richtlinien und Anweisungen mit Bezug zur Informationssicherheit ergeben, auch bei Beendigung oder Änderung der Beschäftigung bestehen bleiben.",A.6.5,0
+HR-06,Vertraulichkeitsvereinbarungen,"Die mit internen Mitarbeitern, externen Dienstleistern sowie Lieferanten des Cloud-Anbieters zu schließenden Geheimhaltungs- oder Vertraulichkeitsvereinbarungen basieren auf den vom Cloud-Anbieter identifizierten Anforderungen zum Schutz vertraulicher Informationen und betrieblicher Details. 
+
+Die Vereinbarungen sind mit externen Dienstleistern und Lieferanten bei Vertragsabschluss zu schließen. Mit internen Mitarbeitern des Cloud-Anbieters sind die Vereinbarungen zu schließen, bevor die Berechtigung zum Zugriff auf Daten der Cloud-Kunden erteilt wird.
+
+Die Anforderungen sind zu dokumentieren sowie in regelmäßigen Abständen (mindestens jährlich) zu überprüfen. Soweit sich aus der Überprüfung ergibt, dass die Anforderungen anzupassen sind, werden die Geheimhaltungs- oder Vertraulichkeitsvereinbarungen aktualisiert. 
+
+Der Cloud-Anbieter hat die internen Mitarbeiter, externen Dienstleister und Lieferanten hierüber zu informieren und mit diesen die aktualisierten Geheimhaltungs- oder Vertraulichkeitsvereinbarungen zu schließen.","A.6.2
+A.6.6",-
+AM-01,Inventarisierung der Assets,"Der Cloud-Anbieter hat Verfahren für eine Inventarisierung der Assets eingerichtet.
+
+Die Inventarisierung erfolgt automatisch und/oder durch für die Assets zuständige Personen oder Gruppen, um eine vollständige, richtige, gültige und konsistente Erfassung über den Lebenszyklus der Assets sicherzustellen.
+
+Zu den Assets werden jene Informationen erfasst, die zur Anwendung des Verfahrens für den Umgang mit Risiken (vgl. OIS-07), einschließlich der Maßnahmen zur Behandlung dieser Risiken über den Lebenszyklus der Assets benötigt werden. Änderungen an diesen Informationen werden protokolliert.",A.5.9,0
+AM-02,Richtlinie für den zulässigen Gebrauch und sicheren Umgang mit Assets,"Richtlinien und Anweisungen für den zulässigen Gebrauch und den sicheren Umgang mit Assets sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt und adressieren folgende Aspekte im Lebenszyklus von Assets, soweit diese für das Asset anwendbar sind:
+
+• Genehmigungsverfahren für Anschaffung, Inbetriebnahme, Instandhaltung, Außerbetriebnahme und Entsorgung durch autorisiertes Personal oder Systemkomponenten,
+
+• Inventarisierung,
+
+• Klassifizierung und Kennzeichnung auf Basis des Schutzbedarfs der Informationen sowie Maßnahmen zur ermittelten Schutzstufe,
+
+• sichere Konfiguration der Mechanismen für Fehlerbehandlung, Protokollierung, Verschlüsselung, Authentisierung und Autorisierung,
+
+• Anforderungen an Software- und Image-Versionen sowie Anwendung von Patches,
+
+• Umgang mit Software für die kein Support und keine Sicherheitsaktualisierungen mehr verfügbar sind,
+
+• Einschränkung von Software-Installationen oder Nutzung von Diensten,
+
+• Schutz vor Schadsoftware,
+
+• Remote-Deaktivierung, Löschung oder Sperrung,
+
+• physische Übergabe und Transport;
+
+• Umgang mit Störungen und Schwachstellen,
+
+• vollständige und unwiderrufliche Löschung der Daten bei Außerbetriebnahme.",A.5.10 ,-
+AM-03,Inbetriebnahme von Hardware,"Der Cloud-Anbieter hat einen Freigabeprozess für den Einsatz von inbetriebzunehmender Hardware, welche zur Bereitstellung des Cloud-Dienstes in der Produktionsumgebung verwendet wird, in welchem die aus der Inbetriebnahme entstehenden Risiken identifiziert, analysiert und mitigiert werden. Die Genehmigung erfolgt nach Verifikation der sicheren Konfiguration der Mechanismen für Fehlerbehandlung, Protokollierung, Verschlüsselung, Authentisierung und Autorisierung gemäß der vorgesehenen Verwendung und auf Basis der anwendbaren Richtlinien.","A.7.10
+A.8.9",-
+AM-04,Außerbetriebnahme von Hardware,"Die Außerbetriebnahme von Hardware, welche der Cloud-Anbieter in der Produktionsumgebung zum Betrieb von Systemkomponenten einsetzt, erfordert eine Genehmigung auf Basis der anwendbaren Richtlinien.
+
+Die Außerbetriebnahme beinhaltet die vollständige und unwiderrufliche Löschung der Daten oder die ordnungsgemäße Vernichtung der Datenträger.","A.7.10
+A.8.10",-
+AM-05,Verpflichtung auf zulässigen Gebrauch und sicheren Umgang mit ausgehändigten Assets sowie Rückgabe,"Interne und externe Mitarbeiter des Cloud-Anbieters werden nachweislich auf die Richtlinien und Anweisungen für den zulässigen Gebrauch und den sicheren Umgang mit Assets verpflichtet, bevor diese verwendet werden dürfen, soweit der Cloud-Anbieter in einer Risikobewertung festgestellt hat, dass diese bei Verlust oder unautorisierten Zugriffen die Informationssicherheit des Cloud-Dienstes gefährden könnten.
+
+Ausgehändigte Assets werden bei der Beendigung des Beschäftigungsverhältnisses nachweislich zurückgegeben.","A.5.11
+A.5.12
+",-
+AM-06,Klassifizierung und Kennzeichnung von Assets,"Assets werden klassifiziert und, falls möglich, gekennzeichnet. Klassifizierung und Kennzeichnung eines Assets entsprechen dem Schutzbedarf der Informationen, die es verarbeitet, speichert oder übermittelt.
+
+Der Schutzbedarf wird durch die für Assets zuständigen Personen oder Gruppen des Cloud-Anbieters nach einem einheitlichen Schema ermittelt. Das Schema sieht Schutzstufen für die Schutzziele Vertraulichkeit, Integrität, Verfügbarkeit und Authentizität vor.","A.5.10
+A.5.12
+A.5.13",-
+PS-01,Sicherheitsanforderungen für Räumlichkeiten und Gebäude,"Sicherheitsanforderungen für Räumlichkeiten und Gebäude mit Bezug zum bereitgestellten Cloud-Dienst sind aus den Sicherheitszielen der Informationssicherheitsleitlinie, dem identifizierten Schutzbedarf für den Cloud-Dienst und der Bewertung von Risiken zur physischen und umgebungsbezogenen Sicherheit abgeleitet. Die Sicherheitsanforderungen sind in einer Richtlinie oder einem Konzept gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt.
+
+Die Sicherheitsanforderungen für Rechenzentren basieren auf Kriterien, die den anerkannten Regeln der Technik entsprechen. Sie sind geeignet die folgenden Gefährdungen gemäß den geltenden gesetzlichen und vertraglichen Anforderungen zu adressieren:
+
+• Fehlerhafte Planung
+
+• Unberechtigter Zutritt
+
+• Unzureichende Überwachung
+
+• Unzureichende Klimatisierung
+
+• Feuer und Rauch
+
+• Wasser
+
+• Ausfall der Stromversorgung
+
+• Verschmutzung.
+
+Soweit der Cloud-Anbieter zur Bereitstellung des Cloud-Dienstes Räumlichkeiten oder Gebäude nutzt, die von Dritten betrieben werden, beschreibt das Dokument welche Sicherheitsanforderungen der Cloud-Anbieter an diese Dritten stellt. Die angemessene und wirksame Überprüfung der Umsetzung erfolgt gemäß den Kriterien zur Steuerung und Überwachung von Subdienstleistern (vgl. SSO-01, SSO-02).",-,n/a
+PS-02,Redundanzmodell,"Die Bereitstellung des Cloud-Dienstes erfolgt aus zwei Standorten, die sich einander Redundanz geben. Die Standorte entsprechen den Sicherheitsanforderungen des Cloud-Anbieters (vgl. PS-01 Sicherheitskonzept) und weisen einen hinreichenden Abstand zueinander auf, um eine Betriebsredundanz zu erreichen. Die Betriebsredundanz ist so ausgelegt, dass die in der Dienstgütevereinbarung enthaltenen Verfügbarkeitsanforderungen eingehalten werden.
+
+Die Funktionsfähigkeit der Redundanz wird mindestens jährlich durch geeignete Tests und Übungen überprüft (vgl. BCM-04 - Verifizierung, Aktualisierung und Test der Betriebskontinuität).",A.8.14,-
+PS-03,Perimeterschutz,"Die bauliche Hülle von Räumlichkeiten und Gebäuden mit Bezug zum bereitgestellten Cloud-Dienst sind physisch solide und durch angemessene Sicherheitsmaßnahmen geschützt, die den Sicherheitsanforderungen des Cloud-Anbieters entsprechen (vgl. PS-01 Sicherheitskonzept).
+
+Die Sicherheitsmaßnahmen sind geeignet, unberechtigte Zutritte rechtzeitig zu erkennen und zu verhindern, damit diese die Informationssicherheit des betrachteten Cloud-Dienstes nicht beeinträchtigen.
+
+Die äußeren Türen, Fenster und sonstigen Bauelemente erreichen ein den Sicherheitsanforderungen angemessenes Niveau und halten einem Einbruchsversuch mindestens 10 Minuten stand. Die umgebenden Wandkonstruktionen sowie die Schließeinrichtungen erfüllen die damit einhergehenden Anforderungen.","A.7.1
+A.7.2
+A.7.3
+A.7.4",0
+PS-04,Zutrittskontrolle,"An Zugängen zu Räumlichkeiten und Gebäuden mit Bezug zum bereitgestellten Cloud-Dienst sind physische Zutrittskontrollen gemäß den Sicherheitsanforderungen des Cloud-Anbieters (vgl. PS-01 Sicherheitskonzept) eingerichtet, um unberechtigte Zutritte zu verhindern.
+
+Die Zutrittskontrollen werden durch ein Zutrittskontrollsystem gesteuert. 
+
+Die Anforderungen an das Zutrittskontrollsystem sind gemäß SP-01 in einer Richtlinie oder einem Konzept dokumentiert, kommuniziert und bereitgestellt und umfassen die folgenden Aspekte:
+
+• Geregeltes Verfahren für die Vergabe und den Entzug von Zutritts-Berechtigungen (vgl. IDM-02) auf Basis des Prinzips der geringsten Berechtigung („Least-Privilege-Prinzip"") und wie es für die Aufgabenwahrnehmung notwendig ist („Need-to-Know-Prinzip""),
+
+• Automatische Sperrung der Zutritts-Berechtigungen, wenn diese über einen Zeitraum von 2 Monaten nicht genutzt wurden
+
+• Automatischer Entzug der Zutritts-Berechtigungen, wenn diese über einen Zeitraum von 6 Monaten nicht genutzt wurden,
+
+• Zwei-Faktor-Authentisierung für den Zutritt zu Bereichen, die Systemkomponenten beherbergen, mit denen Informationen der Cloud-Kunden verarbeitet werden,
+
+• Besucher und Fremdpersonal werden während aller Arbeiten in den Räumlichkeiten und Gebäuden von der Zutrittskontrolle individuell erfasst, als solche gekennzeichnet (z. B. durch sichtbares Tragen eines Besucherausweises) und während ihres Aufenthalts beaufsichtigt,
+
+• Vorhandensein und Beschaffenheit einer Protokollierung der Zutritte, die es dem Cloud-Anbieter im Sinne einer Wirksamkeitsprüfung ermöglicht, zu überprüfen, ob nur definierte Personen die Räumlichkeiten und Gebäude mit Bezug zum bereitgestellten Cloud-Dienst betreten haben.","A.5.16
+A.5.18
+A.7.2
+A.7.3
+A.7.4
+A.8.2",-
+PS-05,Schutz vor Feuer und Rauch,"Räumlichkeiten und Gebäuden mit Bezug zum bereitgestellten Cloud-Dienst sind durch bauliche, technische und organisatorische Maßnahmen vor Feuer und Rauch geschützt, die den Sicherheitsanforderungen des Cloud-Anbieters (vgl. PS-01 Sicherheitskonzept) entsprechen und die folgenden Aspekte umfassen: 
+
+a) Bauliche Maßnahmen:
+
+Einrichtung von Brandabschnitten mit einer Feuerwiderstandsdauer von mindestens 90 Minuten bei allen raumbildenden Teilen.
+
+b) Technische Maßnahmen:
+
+• Brandfrüherkennung mit automatischer Spannungsfreischaltung. Die Überwachungsbereiche sind hinreichend kleinteilig konzipiert, damit die Verhinderung einer Ausbreitung von Entstehungsbränden in einem angemessenen Verhältnis zur Aufrechterhaltung der Verfügbarkeit des bereitgestellten Cloud-Dienstes steht,
+
+• Löschanlage oder Sauerstoffreduzierung,
+
+• Brandmeldeanlage mit Meldung an die örtliche Feuerwehr.
+
+c) Organisatorische Maßnahmen:
+
+• Regelmäßige Brandschutzbegehungen, um die Einhaltung der Brandschutzvorgaben zu prüfen und
+
+• Regelmäßige Brandschutzübungen.","A.7.3
+A.7.5",-
+PS-06,Schutz vor Ausfall der Versorgungseinrichtungen,"Maßnahmen zur Ausfallvorsorge der technischen Versorgungseinrichtungen, die für den Betrieb von Systemkomponenten benötigt werden, mit denen Informationen der Cloud-Kunden verarbeitet werden, sind gemäß den Sicherheitsanforderungen des Cloud-Anbieters (vgl. PS-01 Sicherheitskonzept) hinsichtlich der folgenden Aspekte dokumentiert und eingerichtet:
+
+a) Betriebsredundanz (N+1) in der Strom- und Kälteversorgung
+
+b) Einsatz angemessen dimensionierter unterbrechungsfreier Stromversorgungen (USV) und Netzersatzanlagen (NEA), die so ausgelegt sind, dass bei einem Stromausfall alle Datenbestände unbeschädigt bleiben. Die Funktionsfähigkeit von USV und NEA wird mindestens jährlich durch geeignete Tests und Übungen überprüft (vgl. BCM-04 - Verifizierung, Aktualisierung und Test der Betriebskontinuität).
+
+c) Instandhaltung (Wartung, Inspektion, Instandsetzung/Reparatur) der Versorgungseinrichtungen in Übereinstimmung mit den Herstellerempfehlungen
+
+d) Schutz der Leitungen für Stromversorgung und Telekommunikation vor Unterbrechung, Störung, Beschädigung und Abhören. Der Schutz wird regelmäßig, mindestens aber alle zwei Jahre, sowie bei Manipulationsverdacht durch qualifiziertes Personal hinsichtlich der folgenden Aspekte überprüft:
+
+• Spuren gewaltsamer Öffnungsversuche an geschlossenen Verteilern,
+
+• Aktualität der im Verteiler befindlichen Dokumentation,
+
+• Übereinstimmung der tatsächlichen Beschaltung und Rangierungen mit der Dokumentation,
+
+• Unversehrtheit der Kurzschlüsse und Erdungen nicht benötigter Leitungen,
+
+• unzulässige Einbauten und Veränderungen.","A.7.8
+A.7.11
+A.7.12
+A.7.13
+A.8.14",-
+PS-07,Überwachung der Betriebs- und Umgebungsparameter,"Betriebsparameter der technischen Versorgungseinrichtungen (vgl. PS-06) sowie die Umgebungsparameter der Räumlichkeiten und Gebäuden mit Bezug zum bereitgestellten Cloud-Dienst werden gemäß den Sicherheitsanforderungen des Cloud-Anbieters (vgl. PS-01 Sicherheitskonzept) überwacht und geregelt. Bei Verlassen des zulässigen Regelbereichs wird das dafür sachverständige Personal oder die autorisierten Systemkomponenten des Cloud-Anbieters automatisch informiert, um umgehend die erforderlichen Maßnahmen zur Rückführung in den Regelbereich einzuleiten.",-,n/a
+OPS-01,Kapazitätsmanagement – Planung,"Die Planung von Kapazitäten und Ressourcen (Personal und IT-Ressourcen) folgt einem etablierten Verfahren, um mögliche Kapazitätsengpässe zu vermeiden. Die Verfahren umfassen Prognosen von zukünftigen Kapazitätsanforderungen, um Nutzungstrends zu identifizieren und Risiken der Systemüberlastung zu beherrschen.
+
+Cloud-Anbieter stellen durch geeignete Maßnahmen sicher, dass sie bei Kapazitätsengpässen oder Ausfällen hinsichtlich Personal und IT-Ressourcen die mit den Cloud-Kunden vereinbarten Anforderungen an die Bereitstellung des Cloud-Dienstes, gemäß der jeweiligen Vereinbarungen weiterhin erfüllen, insbesondere solche hinsichtlich dedizierter Nutzung von Systemkomponenten.",A.8.6,0
+OPS-02,Kapazitätsmanagement – Überwachung,"Technische und organisatorische Maßnahmen zur Überwachung und Provisionierung bzw. De-Provisionierung von Cloud-Dienstleistungen sind definiert. Dadurch stellt der Cloud-Anbieter sicher, dass Ressourcen bereitgestellt bzw. Leistungen gemäß den vertraglichen Vereinbarungen erbracht werden und die Einhaltung der Dienstgütevereinbarungen sichergestellt ist.",A.8.6,-
+OPS-03,Kapazitätsmanagement – Steuerung von Ressourcen,"Entsprechend den Möglichkeiten des jeweiligen Servicemodells ist der Cloud-Kunde in der Lage die Aufteilung der ihm zur Verwaltung/Nutzung zugeordneten Systemressourcen zu steuern und zu überwachen, um eine Überbelegung der Ressourcen zu vermeiden und eine hinreichende Performance zu erreichen.",-,n/a
+OPS-04,Schutz vor Schadprogrammen - Konzept,"Richtlinien und Anweisungen mit Vorgaben zum Schutz vor Schadprogrammen sind hinsichtlich der folgenden Aspekte gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt:
+
+• Nutzung systemspezifischer Schutzmechanismen,
+
+• Betrieb von Schutzprogrammen auf Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters, die für die Bereitstellung des Cloud-Dienstes in der Produktionsumgebung verwendet werden,
+
+• Betrieb von Schutzprogrammen für Endgeräte der Mitarbeiter.",-,n/a
+OPS-05,Schutz vor Schadprogrammen - Umsetzung,"Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters, die für die Bereitstellung des Cloud-Dienstes in der Produktionsumgebung verwendet werden, sind gemäß der in den Richtlinien und Anweisungen zum Schutz vor Schadprogrammen definierten Vorgaben geschützt.
+
+Soweit Schutzprogramme mit einer signatur- und/oder verhaltensbasierten Erkennung und Entfernung von Schadprogrammen eingerichtet sind, werden diese Schutzprogramme mindestens täglich aktualisiert.",A.8.7,-
+OPS-06,Vorgaben zur Datensicherung und Wiederherstellung – Konzept,"Richtlinien und Anweisungen mit Vorgaben zur Datensicherung- und Wiederherstellung sind hinsichtlich der folgenden Aspekte gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt.
+
+• Umfang und Häufigkeit der Datensicherung sowie die Dauer der Aufbewahrung entsprechen den vertraglichen Vereinbarungen mit den Cloud-Kunden sowie den Anforderungen an die betriebliche Kontinuität des Cloud-Anbieters hinsichtlich maximal tolerierbarer Ausfallzeit (Recovery Time Objective, RTO) und maximal zulässigem Datenverlust (Recovery Point Objective, RPO),
+
+• Die Datensicherung erfolgt in verschlüsselter Form, die dem aktuellen Stand der Technik entspricht,
+
+• Der Zugriff auf die gesicherten Daten und die Durchführung von Wiederherstellungen erfolgt nur durch autorisierte Personen,
+
+• Tests von Wiederherstellungsverfahren (vgl. OPS-08).","A.8.3
+A.8.10
+A.8.13
+A.8.24",-
+OPS-07,Datensicherung und Wiederherstellung – Überwachung,"Der Cloud-Anbieter überwacht die Durchführung der Datensicherung mit technischen und organisatorischen Maßnahmen. Störungen werden durch qualifizierte Mitarbeiter des Cloud-Anbieters untersucht und zeitnah behoben, um die Einhaltung der vertraglichen Verpflichtungen gegenüber den Cloud-Kunden oder den geschäftlichen Anforderungen des Cloud-Anbieters bezüglich des Umfang und der Häufigkeit der Datensicherung sowie der Dauer der Aufbewahrung zu gewährleisten.",-,n/a
+OPS-08,Datensicherung und Wiederherstellung – Regelmäßige Tests,"Wiederherstellungsverfahren werden vom Cloud-Anbieter regelmäßig, mindestens jährlich, getestet. Die Tests erlauben eine Beurteilung darüber, ob die vertraglichen Vereinbarungen sowie die Vorgaben zur maximal tolerierbarer Ausfallzeit (Recovery Time Objective, RTO) und zum maximal zulässigem Datenverlust (Recovery Point Objective, RPO) eingehalten werden (vgl. BCM-02).
+
+Abweichungen von den Vorgaben werden an das dafür zuständige Personal oder die dafür zuständigen Systemkomponenten beim Cloud-Anbieter berichtet, damit diese die Abweichungen umgehend beurteilen und erforderliche Maßnahmen einleiten können.",A.8.13,-
+OPS-09,Datensicherung und Wiederherstellung – Aufbewahrung,"Der Cloud-Anbieter überträgt zu sichernde Daten an einen Remote-Standort oder transportiert diese auf Sicherungsdatenträgern an einen Remote-Standort. Soweit die Datensicherung über ein Netz zum Remote-Standort übertragen wird, erfolgt die Datensicherung oder die Übertragung der Daten in einer verschlüsselten Form, die dem Stand der Technik entspricht. Die Entfernung zum Hauptstandort ist nach hinreichender Abwägung der Faktoren Wiederherstellungszeiten und Auswirkung von Katastrophen auf beide Standorte gewählt. Die Maßnahmen zur physischen und umgebungsbezogenen Sicherheit am Remote-Standort entsprechen dem Niveau am Hauptstandort.","A.8.13
+A.8.14",-
+OPS-10,Protokollierung und Überwachung – Konzept,"Der Cloud-Anbieter hat Richtlinien und Anweisungen etabliert, welche das Protokollieren und Überwachen von Ereignissen auf Systemkomponenten in seinem Verantwortungsbereich regeln. Diese Richtlinien und Anweisungen sind hinsichtlich der folgenden Aspekte gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt und enthalten folgende Aspekte:
+
+• Definition von Ereignissen, die zu einer Verletzung der Schutzziele führen können,
+
+• Vorgaben zum Aktivieren, Stoppen und Pausieren der verschiedenen Protokollierungen,
+
+• Informationen bezüglich des Zwecks sowie des Aufbewahrungszeitraums der Protokollierungen,
+
+• Festlegung von Rollen und Verantwortlichkeiten für die Einrichtung und Überwachung der Protokollierung,
+
+• Zeitsynchronisation von Systemkomponenten,
+
+• Einhaltung rechtlicher und regulatorischer Rahmenbedingungen.",A.8.15,0
+OPS-11,Protokollierung und Überwachung – Konzept zum Umgang mit Metadaten,"Richtlinien und Anweisungen mit Vorgaben zur sicheren Handhabung von Metadaten (Nutzungsdaten) sind hinsichtlich der folgenden Aspekte gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt:
+
+• Sammlung und Nutzung von Metadaten erfolgt ausschließlich für Abrechnungszwecke, zum Beheben von Störungen und Fehlern (Incident Management) sowie zum Bearbeiten von Sicherheitsvorfällen (Security Incident Management), 
+
+• Ausschließliche Nutzung anonymisierter Metadaten zur Bereitstellung und Verbesserung des Cloud-Dienstes, sodass kein Rückschluss auf den Cloud Kunden oder Nutzer möglich ist,
+
+• keine kommerzielle Nutzung,
+
+• Speicherung für einen festgelegten Zeitraum, der in einem angemessenen Zusammenhang mit den Zwecken der Erhebung steht,
+
+• unverzügliche Löschung, wenn die Zwecke der Erhebung erfüllt sind und eine weitere Speicherung nicht mehr erforderlich ist,
+
+• Bereitstellung an Cloud-Kunden gemäß den vertraglichen Vereinbarungen. ","A.8.10
+A.8.11
+A.8.15",-
+OPS-12,"Protokollierung und Überwachung – Zugriff, Speicherung und Löschung","Die Vorgaben zur Protokollierung und Überwachung von Ereignissen sowie zur sicheren Handhabung von Metadaten werden durch technisch gestützte Verfahren hinsichtlich der folgender Beschränkungen umgesetzt:
+
+• Zugriff nur für auf autorisierte Benutzer und Systeme
+
+• Speicherung für den festgelegten Zeitraum
+
+• Löschung, wenn weitere Speicherung für den Zweck der Erhebung nicht mehr erforderlich ist.","A.8.3
+A.8.10
+A.8.15",-
+OPS-13,Protokollierung und Überwachung – Erkennung von Ereignissen,"Die Protokollierungsdaten werden gemäß den Vorgaben zur Protokollierung und Überwachung automatisch auf Ereignisse überwacht, die zu einer Verletzung der Schutzziele führen können. Dies umfasst auch die Erkennung von Beziehungen zwischen Ereignissen (Ereigniskorrelation).
+
+Identifizierte Ereignisse werden automatisch an das dafür zuständige Personal oder die dafür zuständigen Systemkomponenten des Cloud-Anbieters berichtet, um die Ereignisse umgehend einer Beurteilung zu unterziehen und erforderliche Maßnahmen einzuleiten.","A.5.26
+A.8.16",0
+OPS-14,Protokollierung und Überwachung – Aufbewahrung der Protokollierungsdaten,"Der Cloud-Anbieter bewahrt die erstellten Protokollierungsdaten unabhängig von der Quelle dieser Daten, geeignet und unveränderlich aggregiert auf, sodass eine zentrale, autorisierte Auswertung der Daten möglich ist. Protokollierungsdaten werden gelöscht, wenn sie zur Erreichung des Zwecks nicht mehr erforderlich sind.
+
+Zwischen Protokollierungsservern und den zu protokollierenden Assets erfolgt eine Authentisierung, um die Integrität und Authentizität der übertragenen und gespeicherten Informationen zu schützen. Die Übertragung erfolgt nach einer dem Stand der Technik entsprechenden Verschlüsselung oder über ein eigenes Administrationsnetz (Out-of-Band-Management).",A.8.15,-
+OPS-15,Protokollierung und Überwachung – Zurechenbarkeit,"Die erstellten Protokollierungsdaten erlauben eine eindeutige Identifizierung von Benutzerzugriffen auf Tenant-Ebene, um (forensische) Analysen im Falle eines Sicherheitsvorfalls zu unterstützen. 
+
+Für die Durchführung der forensischen Analysen und Sicherungen von Infrastrukturkomponenten sowie deren Netzkommunikation stehen Schnittstellen zur Verfügung.",-,n/a
+OPS-16,Protokollierung und Überwachung – Konfiguration,Der Zugriff auf Systemkomponenten zur Protokollierung- und Überwachung im Verantwortungsbereich des Cloud-Anbieters ist auf autorisierte Benutzer beschränkt. Änderungen an der Konfiguration erfolgen gemäß den anwendbaren Richtlinien und Anweisungen (vgl. DEV-03).,"A.8.9
+A.8.15
+A.8.18",-
+OPS-17,Protokollierung und Überwachung – Verfügbarkeit der Überwachungs-Software,"Der Cloud-Anbieter überwacht die Protokollierungs- und Überwachungssysteme in seinem Verantwortungsbereich. Ausfälle werden automatisch und umgehend an das dafür zuständige Personal oder die dafür zuständigen Systemkomponenten des Cloud-Anbieters berichtet, sodass diese die Ausfälle beurteilen und erforderliche Maßnahmen einleiten können.",A.8.14,-
+OPS-18,"Umgang mit Schwachstellen, Störungen und Fehlern – Konzept","Richtlinien und Anweisungen mit technischen und organisatorischen Maßnahmen sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt, um das zeitnahe Identifizieren und Adressieren von Schwachstellen der Systemkomponenten, die für die Bereitstellung des Cloud-Dienstes verwendet werden, zu gewährleisten. Diese Richtlinien und Anweisungen enthalten Vorgaben zu folgenden Aspekten:
+
+• Regelmäßiges Identifizieren von Schwachstellen (Vulnerabilities),
+
+• Beurteilen des Schweregrads identifizierter Schwachstellen,
+
+• Priorisieren und Umsetzen von Maßnahmen zur zeitnahen Behebung oder Mitigation identifizierter Schwachstellen auf Basis des Schweregrades gemäß definierter Zeitvorgaben,
+
+• Umgang mit Systemkomponenten, für die basierend auf einer Risikobewertung keine Maßnahmen zur zeitnahen Behebung oder Mitigation der Schwachstellen eingeleitet werden.",A.8.8,-
+OPS-19,"Umgang mit Schwachstellen, Störungen und Fehlern – Penetrationstests","Der Cloud-Anbieter lässt mindestens jährlich Penetrationstests durch qualifiziertes internes Personal oder externe Dienstleister durchführen. Die Penetrationstests erfolgen nach einer dokumentierten Testmethodik und umfassen die für die Erbringung des Cloud-Dienstes relevanten Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters, die im Rahmen einer Risiko-Analyse als solche identifiziert wurden.
+
+Der Cloud-Anbieter hat den Schweregrad der in Penetrationstests getroffenen Feststellungen nach definierten Kriterien zu beurteilen.
+Für Feststellungen mit mittlerer oder hoher Kritikalität in Bezug auf die Vertraulichkeit, Integrität oder Verfügbarkeit des Cloud-Dienstes sind innerhalb definierter Zeitfenster Maßnahmen zur zeitnahen Behebung oder Mitigation durchzuführen.",-,n/a
+OPS-20,"Umgang mit Schwachstellen, Störungen und Fehlern – Messungen, Analysen und Bewertungen der Verfahren","Der Cloud-Anbieter führt regelmäßige Messungen, Analysen und Bewertungen der Verfahren zum Umgang mit Schwachstellen (Vulnerabilities) und Störungen (Incidents) durch, um deren fortdauernde Eignung, Angemessenheit und Wirksamkeit zu überprüfen. Ergebnisse werden mindestens quartalsweise durch verantwortliches Personal des Cloud-Anbieters bewertet, um Maßnahmen zur fortlaufenden Verbesserung zu initiieren oder deren Wirksamkeit zu überprüfen.",A.8.8,-
+OPS-21,Einbindung des Cloud-Kunden bei Störungen (Incidents),"Der Cloud-Anbieter informiert den Cloud-Kunden regelmäßig und in angemessener Form, die den vertraglichen Vereinbarungen entspricht, über den Status der den Cloud-Kunden betreffenden Störungen (Incidents) und bindet diesen, soweit angemessen und erforderlich, in deren Behebung ein. Sobald eine Störung aus Sicht des Cloud-Anbieters behoben wurde, wird der Cloud-Kunde gemäß den vertraglichen Vereinbarungen über die getroffenen Maßnahmen informiert.",A.8.8,-
+OPS-22,Prüfung und Dokumentation offener Schwachstellen,"Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters für die Erbringung des Cloud-Dienstes werden gemäß den Vorgaben zum Umgang mit Schwachstellen (vgl. OPS-18), mindestens monatlich, automatisiert auf bekannte Schwachstellen (Vulnerabilities) geprüft, der Schweregrad nach definierten Kriterien beurteilt und Maßnahmen zur zeitnahen Behebung oder Mitigation innerhalb definierter Zeitfenster eingeleitet.","A.8.8
+A.8.32",-
+OPS-23,"Umgang mit Schwachstellen, Störungen und Fehlern – System-Härtung","Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters, die für die Bereitstellung des Cloud-Dienstes in der Produktionsumgebung verwendet werden, sind gemäß allgemein akzeptierter Branchenstandards gehärtet. Die je Systemkomponente anzuwendenden Vorgaben zur Härtung sind dokumentiert.
+Soweit nicht veränderliche (""immutable"") Images eingesetzt werden, wird die Einhaltung der Vorgaben zur Härtung bei der Erstellung der Images in einem konsistenten Verfahren überprüft. Konfigurations- und Log-Dateien bezüglich der kontinuierlichen Bereitstellung dieser Images werden aufbewahrt.",A.8.9,-
+OPS-24,Separierung der Datenbestände in der Cloud-Infrastruktur,"Auf gemeinsam genutzten virtuellen und physischen Ressourcen gespeicherte und verarbeitete Daten der Cloud-Kunden sind gemäß eines dokumentierten Konzepts auf Basis einer Risikoanalyse gemäß OIS-07 sicher und strikt separiert, um die Vertraulichkeit und Integrität dieser Daten zu gewährleisten.",A.8.22,-
+IDM-01,Richtlinie für Zugangs- und Zugriffsberechtigungen,"Ein auf den Geschäfts- und Sicherheitsanforderungen des Cloud-Anbieters basierendes Rollen- und Rechtekonzept sowie eine Richtlinie zur Verwaltung von Zugangs- und Zugriffsberechtigungen für interne und externe Mitarbeiter des Cloud-Anbieters sowie für Systemkomponenten, die eine Rolle in automatisierten Autorisierungsprozessen des Cloud-Anbieters innehaben, sind gemäß SP-01 mit folgenden Vorgaben dokumentiert, kommuniziert und bereitgestellt: 
+•	Vergabe eindeutiger Benutzernamen,
+•	Vergabe und Änderung von Zugangs- und Zugriffsberechtigungen auf Basis des Prinzips der geringsten Berechtigung („Least-Privilege-Prinzip"") und wie es für die Aufgabenwahrnehmung notwendig ist („Need-to-Know-Prinzip""),
+•	Funktionstrennung zwischen operativen und kontrollierenden Funktionen („Segregation of Duties""),
+•	Funktionstrennung in der Verwaltung von Rechteprofilen, Genehmigung und Zuweisung von Zugangs- und Zugriffsberechtigungen,
+•	Genehmigung der Vergabe oder Änderung durch autorisiertes Personal oder autorisierte Systemkomponenten bevor auf Daten der Cloud-Kunden oder Systemkomponenten zur Bereitstellung des Cloud-Dienstes zugegriffen werden kann,
+•	regelmäßige Überprüfung vergebener Zugangs- und Zugriffsberechtigungen, 
+•	Sperrung und Entzug von Zugangsberechtigungen bei Inaktivität, 
+•	Zeitbasierter oder anlassbezogener Entzug bzw. Anpassung von Zugriffsberechtigungen bei Veränderungen des Aufgabengebiets,
+•	Zwei- oder Mehr-Faktor-Authentisierung für Benutzer mit privilegierten Zugriffsberechtigungen,
+•	Anforderungen an Genehmigung und Dokumentation der Verwaltung von Zugangs- und Zugriffsberechtigungen.","A.5.15
+A.8.3
+A.8.5",-
+IDM-02,Vergabe und Änderung von Zugangs- und Zugriffsberechtigungen,"Geregelte Verfahren für die Vergabe und Änderung von Zugangs- und Zugriffsberechtigungen für interne und externe Mitarbeiter des Cloud-Anbieters sowie für Systemkomponenten, die eine Rolle in automatisierten Autorisierungsprozessen des Cloud-Anbieters innehaben, stellen die Einhaltung des Rollen- und Rechtekonzepts sowie der Richtlinie zur Verwaltung von Zugangs- und Zugriffsberechtigungen sicher.","A.5.18
+A.8.2",0
+IDM-03,Sperrung und Entzug von Zugangsberechtigungen bei Inaktivität oder mehrfach fehlgeschlagenen Anmeldungen,"Zugangsberechtigungen interner und externer Mitarbeiter des Cloud-Anbieters sowie von Systemkomponenten, die eine Rolle in automatisierten Autorisierungsprozessen des Cloud-Anbieters innehaben, werden gesperrt, wenn diese über einen Zeitraum von zwei Monaten nicht genutzt wurden. Das Entsperren erfordert die Genehmigung durch eine hierzu autorisierte Instanz.
+
+Nach spätestens sechs Monaten werden die gesperrten Zugangsberechtigungen entzogen. Nach Entzug ist das Verfahren für die Vergabe (vgl. IDM-02) erneut zu durchlaufen.",A.5.18,-
+IDM-04,Entzug oder Anpassung von Zugriffsberechtigungen bei Veränderungen des Aufgabengebiets,"Zugriffsberechtigungen werden bei Änderungen im Aufgabengebiet der internen und externen Mitarbeiter des Cloud-Anbieters oder der Systemkomponenten, die eine Rolle in automatisierten Autorisierungsprozessen des Cloud-Anbieters innehaben, zeitnah entzogen. Privilegierte Zugriffsberechtigungen werden spätestens 48 Stunden nach Inkrafttreten der Änderung angepasst oder entzogen. Alle anderen Zugriffsberechtigungen werden spätestens nach 14 Tagen angepasst oder entzogen. Nach Entzug ist das Verfahren für die Vergabe (vgl. IDM-02) erneut zu durchlaufen.","A.5.18
+A.8.2",-
+IDM-05,Regelmäßige Überprüfung der Zugriffsberechtigungen,"Zugriffsberechtigungen interner und externer Mitarbeiter des Cloud-Anbieters sowie von Systemkomponenten, die eine Rolle in automatisierten Autorisierungsprozessen des Cloud-Anbieters innehaben, werden mindestens jährlich daraufhin überprüft, ob diese noch dem tatsächlichen Aufgaben- bzw. Einsatzgebiet entsprechen. Die Überprüfung erfolgt durch hierzu autorisierte Personen aus den Organisationseinheiten des Cloud-Anbieters, die aufgrund ihres Wissens über die Aufgabengebiete der Mitarbeiter oder Systemkomponenten die Angemessenheit der vergebenen Zugriffsberechtigungen beurteilen können. Identifizierte Abweichungen werden zeitnah, spätestens aber 7 Tage nach ihrer Feststellung durch geeignetes Ändern oder Entziehen der Zugriffsberechtigungen behandelt. ",A.5.18,-
+IDM-06,Privilegierte Zugriffsberechtigungen,"Vergabe und Änderung von privilegierten Zugriffsberechtigungen für interne und externe Mitarbeiter sowie technische Benutzer des Cloud-Anbieters erfolgen gemäß der Richtlinie zur Verwaltung von Zugangs- und Zugriffsberechtigungen (vgl. IDM-01) oder einer separaten Richtlinie.
+
+Privilegierte Zugriffsberechtigungen werden personalisiert sowie gemäß einer Risikobewertung zeitlich befristet und wie es für die Aufgabenwahrnehmung notwendig ist („Need-to-Know-Prinzip"") zugewiesen. Technische Benutzer werden zudem internen oder externen Mitarbeitern des Cloud-Anbieters zugewiesen.
+
+Die Aktivitäten von Benutzern mit privilegierten Zugriffsberechtigungen werden protokolliert, um einen Missbrauch dieser Berechtigungen im Verdachtsfall aufdecken zu können. Die protokollierten Informationen werden automatisch auf definierte Ereignisse überwacht, die einen Missbrauch darstellen können. Bei Identifikation eines solchen Ereignisses wird das dafür zuständige Personal des Cloud-Anbieters automatisch informiert, um unverzüglich beurteilen zu können, ob ein Missbrauch vorliegt und entsprechende Maßnahmen einzuleiten sind. Bei nachweislich missbräuchlicher Nutzung privilegierter Zugriffsberechtigungen werden Disziplinarmaßnahmen gemäß HR-04 eingeleitet.","A.5.3
+A.8.2
+A.8.15
+A.8.16",-
+IDM-07,Zugriff auf Daten der Cloud-Kunden,"Der Cloud-Kunde wird durch den Cloud-Anbieter über Ereignisse informiert, bei denen interne oder externe Mitarbeiter des Cloud-Anbieters, ohne vorherige Zustimmung des Cloud-Kunden, lesend oder schreibend auf die im Cloud-Dienst verarbeiteten, gespeicherten oder übertragenen Daten der Cloud-Kunden zugreifen werden oder zugegriffen haben. Die Information erfolgt je Ereignis, soweit die Daten des Cloud-Kunden nicht verschlüsselt sind/waren, die Verschlüsselung für den Zugriff aufgehoben wird/wurde oder die vertraglichen Vereinbarungen eine solche Information nicht explizit ausschließen. Aus der Information gehen Anlass, Zeitpunkt, Dauer, Art und Umfang des Zugriffs hervor. Die Informationen sind hinreichend detailliert, um sachverständigen Personen des Cloud-Kunden eine Risikobeurteilung des Zugriffs zu ermöglichen. Die Information erfolgt gemäß der vertraglichen Vereinbarung, spätestens aber 72 Stunden nach dem Zugriff.",-,n/a
+IDM-08,Vertraulichkeit von Authentisierungsinformationen,"Die Zuteilung von Authentisierungsinformationen zum Zugriff auf Systemkomponenten zur Bereitstellung des Cloud-Dienstes an interne und externe Benutzer des Cloud-Anbieters und Systemkomponenten, die eine Rolle in automatisierten Autorisierungsprozessen des Cloud-Anbieters innehaben, erfolgt in einem geordneten Verfahren, das die Vertraulichkeit der Informationen sicherstellt.
+
+Soweit Passwörter als Authentisierungsinformationen eingesetzt werden, ist deren Vertraulichkeit durch folgende Verfahren sichergestellt, soweit dies technisch möglich ist:
+
+• Benutzer können das Passwort initial selbst erstellen oder müssen ein initial vorgegebenes Passwort bei der ersten Anmeldung an der Systemkomponente ändern. Ein initial vorgegebenes Passwort verliert nach maximal 14 Tagen seine Gültigkeit
+
+• Beim Erstellen von Passwörtern wird das Einhalten der Passwort-Vorgaben (vgl. IDM-09) erzwungen, soweit dies technisch möglich ist
+
+• Der Benutzer wird über das Ändern oder Zurücksetzen des Passworts informiert
+
+• Die serverseitige Speicherung erfolgt unter Anwendung kryptographisch starker Passworthashfunktionen
+
+Abweichungen sind durch eine Risikoanalyse bewertet und daraus abgeleitete, mitigierende Maßnahmen umgesetzt.",A.5.17,-
+IDM-09,Authentisierungsmechanismen,"Systemkomponenten im Verantwortungsbereich des Cloud-Anbieters, die für die Bereitstellung des Cloud-Dienstes verwendet werden, authentifizieren Benutzer der internen und externen Mitarbeiter des Cloud-Anbieters sowie der Systemkomponenten, die eine Rolle in automatisierten Autorisierungsprozessen des Cloud-Anbieters innehaben. Der Zugriff auf die Produktionsumgebung erfordert eine Zwei- oder Mehr-Faktor-Authentisierung. Innerhalb der Produktionsumgebung erfolgt die Authentifizierung der Benutzer durch Passwörter, digital signierte Zertifikate oder Verfahren, die ein mindestens gleichwertiges Sicherheitsniveau erreichen. Soweit digital signierte Zertifikate verwendet werden, erfolgt die Verwaltung gemäß der Richtlinie zur Schlüsselverwaltung (vgl. CRY-01). Die Passwort-Vorgaben sind aus einer Risikobewertung abgeleitet sowie in einer Richtlinie für Passwörter gemäß SP-01, dokumentiert, kommuniziert und bereitgestellt. Die Einhaltung der Vorgaben wird durch die Konfiguration der Systemkomponenten erzwungen, soweit dies technisch möglich ist.",A.5.17,-
+CRY-01,Richtlinie zur Nutzung von Verschlüsselungsverfahren und Schlüsselverwaltung,"Richtlinien und Anweisungen mit technischen und organisatorischen Maßnahmen für Verschlüsselungsverfahren und Schlüsselverwaltung sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt, in denen die folgenden Aspekte beschrieben sind: 
+
+• die Nutzung starker Verschlüsselungsverfahren und die Verwendung sicherer Netzprotokolle, die dem Stand der Technik entsprechen,
+
+• risikobasierte Vorschriften für den Einsatz von Verschlüsselung, die mit Schemata zur Informationsklassifikation abgeglichen sind und den Kommunikationskanal sowie die Art, Stärke und Qualität der Verschlüsselung berücksichtigen,
+
+• Anforderungen für das sichere Erzeugen, Speichern, Archivieren, Abrufen, Verteilen, Entziehen und Löschen der Schlüssel,
+
+• Berücksichtigung der relevanten rechtlichen und regulatorischen Verpflichtungen und Anforderungen.","A.5.14
+A.5.31
+A.8.24",0
+CRY-02,Verschlüsselung von Daten bei der Übertragung (Transportverschlüsselung),Der Cloud-Anbieter hat für das Übertragen von Daten der Cloud-Kunden über öffentliche Netze Verfahren und technische Maßnahmen zur starken Verschlüsselung und Authentifizierung etabliert.,"A.5.14
+A.5.31
+A.8.20
+A.8.24
+A.8.26",0
+CRY-03,Verschlüsselung von sensiblen Daten bei der Speicherung,"Der Cloud-Anbieter hat Verfahren und technische Maßnahmen zur Verschlüsselung von Daten der Cloud-Kunden bei der Speicherung etabliert. Die für die Verschlüsselung verwendeten privaten Schlüssel sind ausschließlich dem Cloud-Kunden nach geltenden rechtlichen und regulatorischen Verpflichtungen und Anforderungen bekannt. Ausnahmen folgen einem geregelten Verfahren. Die Verfahren zur Verwendung privater Schlüssel, inklusive gegebenenfalls bestehender Ausnahmen, sind mit dem Cloud-Kunden vertraglich zu vereinbaren. ","A.5.34
+A.8.24 ",0
+CRY-04,Sichere Schlüsselverwaltung,"Die Verfahren und technische Maßnahmen zur sicheren Verwaltung von Schlüsseln im Verantwortungsbereich des Cloud-Anbieters beinhalten mindestens die folgenden Aspekte:
+
+• Schlüsselgenerierung für unterschiedliche kryptographische Systeme und Applikationen,
+
+• Ausstellung und Einholung von Public-Key-Zertifikaten,
+
+• Provisionierung und Aktivierung von Schlüsseln,
+
+• Sicheres Speichern von Schlüsseln (Separierung des Key-Management-Systems von Anwendungs- und Middleware Ebene), einschließlich der Beschreibung wie autorisierte Nutzer den Zugriff erhalten,
+
+• Ändern oder Aktualisieren von kryptographischen Schlüssel einschließlich Richtlinien, die festlegen, unter welchen Bedingungen und auf welche Weise die Änderungen bzw. Aktualisierungen zu realisieren sind,
+
+• Umgang mit kompromittierten Schlüsseln,
+
+• Entzug und Löschen von Schlüsseln,
+
+• Falls pre-shared keys verwendet werden, sind die Besonderheiten in Bezug auf sichere Nutzung dieses Verfahrens gesondert aufgeführt.",A.8.24,-
+COS-01,Technische Schutzmaßnahmen,"Basierend auf den Ergebnissen einer gemäß OIS-06 durchgeführten Risiko-Analyse, hat der Cloud-Anbieter technische Schutzmaßnahmen implementiert, die geeignet sind, netzbasierte Angriffe auf Basis anomaler Eingangs- oder Ausgangs-Traffic-Muster und/oder Distributed-Denial-of-Service (DDoS) Angriffe zeitnah zu erkennen und darauf zu reagieren. Aus entsprechend implementierten technischen Schutzmaßnahmen stammende Daten werden in ein übergreifendes SIEM-System (Security Information and Event Management) eingespeist, sodass für korrelierende Ereignisse erforderliche (Gegen-) Maßnahmen initiiert werden können. Die Schutzmaßnahmen sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt.","A.8.12
+A.8.20
+A.8.21",-
+COS-02,Sicherheitsanforderungen an Verbindungen im Netz des Cloud-Anbieters,"Für die Herstellung von Verbindungen innerhalb des Netzes des Cloud Anbieters sind spezifische Sicherheitsanforderungen konzipiert, veröffentlicht und bereitgestellt. In den Sicherheitsanforderungen ist für den Verantwortungsbereich des Cloud Anbieters festgelegt: 
+
+• in welchen Fällen die Sicherheitszonen zu separieren sind und in welchen Fällen Cloud-Kunden logisch oder physisch zu trennen sind, 
+
+• welche Kommunikationsbeziehungen und welche Netz- und Anwendungsprotokolle jeweils zugelassen werden,
+
+• wie der Datenverkehr für Administration und Monitoring netztechnisch zu trennen ist,
+
+• welche interne, standortübergreifende Kommunikation zugelassen ist,
+
+• welche übergreifende Kommunikation zugelassen ist.","A.5.14
+A.8.20
+A.8.21
+A.8.22",-
+COS-03,Überwachung von Verbindungen im Netz des Cloud-Anbieters,"Es wird zwischen vertrauenswürdigen und nicht vertrauenswürdigen Netzen unterschieden. Diese sind basierend auf einer Risikobewertung in verschiedene Sicherheitszonen für interne und externe Netzbereiche (und ggf. DMZ) separiert.
+
+Physische und virtualisierte Netzumgebungen sind so konzipiert und konfiguriert, dass die hergestellte Verbindung zu vertrauenswürdigen oder nicht vertrauenswürdigen Netzen gemäß den definierten Sicherheitsanforderungen beschränkt und überwacht wird.
+
+Die Gesamtheit der vorgenommenen Konzeption und Konfiguration zur Überwachung der genannten Verbindungen wird risikoorientiert, mindestens jährlich, in Bezug auf die daraus resultierenden Sicherheitsanforderungen überprüft. Identifizierte Schwachstellen und Abweichungen werden gemäß dem Verfahren zum Umgang mit Risiken (vgl. OIS-06) einer Risikobeurteilung unterzogen und Maßnahmen zur Behandlung definiert und nachverfolgt (vgl. OPS-18).
+
+In festgelegten Abständen wird die geschäftliche Rechtfertigung für die Verwendung aller Dienste, Protokolle und Ports überprüft. Darüber hinaus umfasst die Überprüfung auch die Begründungen für kompensierende Maßnahmen für die Verwendung von Protokollen, die als unsicher angesehen werden.","A.5.14
+A.8.9 
+A.8.16
+A.8.20
+A.8.21",0
+COS-04,Netzübergreifende Zugriffe,Jeder Netzperimeter wird von Sicherheitsgateways kontrolliert. Die Zugangsberechtigung für netzübergreifende Zugriffe basiert auf einer Sicherheitsbewertung auf Grundlage der Anforderungen der Cloud-Kunden.,"A.8.21
+A.8.22",-
+COS-05,Netze zur Administration,"Es existieren gesonderte Netze zur administrativen Verwaltung der Infrastruktur und für den Betrieb von Managementkonsolen, die logisch oder physisch vom Netz der Cloud-Kunden getrennt und durch Multi-Faktor-Authentifizierung vor unberechtigten Zugriffen geschützt sind (vgl. IDM-09). Netze, die seitens des Cloud Anbieters zum Zwecke der Migration oder dem Erzeugen von virtuellen Maschinen dienen, sind ebenfalls physisch oder logisch von anderen Netzen separiert.",A.8.22,-
+COS-06,Segregation des Datenverkehrs in gemeinsam genutzten Netzumgebungen,"Der Datenverkehr von Cloud-Kunden in gemeinsam genutzten Netzumgebungen wird gemäß eines dokumentierten Konzepts zur Segmentierung auf Netzebene segregiert, um die Vertraulichkeit und Integrität der übertragenen Daten zu gewährleisten.",A.8.22,-
+COS-07,Dokumentation des Netzes,"Die logische Struktur des Netzes, das zum Erbringen oder Betreiben des Cloud-Dienstes verwendet wird, ist nachvollziehbar und aktuell dokumentiert, um im Wirkbetrieb Fehler in der Verwaltung zu vermeiden und um im Störungsfall eine zeitgerechte Wiederherstellung gemäß den vertraglichen Verpflichtungen zu gewährleisten. Aus der Dokumentation geht insbesondere hervor, wie die Subnetze zugeordnet und wie das Netz zoniert sowie segmentiert wird. Darüber hinaus werden die geografischen Lokationen angegeben, in denen die Daten der Cloud-Kunden gespeichert werden.",A.8.9,-
+COS-08,Richtlinien zur Datenübertragung,"Richtlinien und Anweisungen mit technischen und organisatorischen Maßnahmen zum Schutz der Datenübertragung vor unbefugtem Abfangen, Manipulieren, Kopieren, Modifizieren, Umleiten oder Vernichten sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt. Die Vorgaben stellen einen Bezug zur Klassifikation von Informationen her (vgl. AM-06). ","A.5.14
+A.8.12",0
+PI-01,Dokumentation und Sicherheit der Eingangs- und Ausgangs-Schnittstellen,"Der Cloud-Dienst kann von anderen Cloud-Diensten oder IT-Systemen der Cloud-Kunden über dokumentierte Eingangs- und Ausgangs-Schnittstellen angesprochen werden. Dazu ist für sachverständiges Personal ersichtlich dokumentiert, wie die Schnittstellen zur Rückgabe der Daten genutzt werden können. 
+
+Die Kommunikation erfolgt über standardisierte Kommunikationsprotokolle, mit denen die Vertraulichkeit und Integrität der übertragenen Informationen gemäß ihrem Schutzbedarf sichergestellt wird. Die Kommunikation über nicht vertrauenswürdige Netze ist gemäß CRY-02 verschlüsselt.
+
+Art und Umfang der Dokumentation zu den Schnittstellen orientieren sich am Bedarf sachverständigen Personals der Cloud-Kunden, um die Nutzung dieser Schnittstellen zu ermöglichen. Die Informationen werden so gepflegt, dass sie für den bereitgestellten Cloud-Dienst in der für die produktive Nutzung vorgesehenen Version anwendbar sind.",A.8.9,-
+PI-02,Vertragliche Vereinbarungen zur Bereitstellung von Daten,"In vertraglichen Vereinbarungen sind folgende Aspekte hinsichtlich der Beendigung des Auftragsverhältnisses definiert, soweit diese für den Cloud-Dienst anwendbar sind:
+
+• Art, Umfang und Format der Daten, die der Cloud-Anbieter dem Cloud-Kunden übergibt,
+
+• Definition der Frist, innerhalb derer der Cloud-Anbieter dem Cloud-Kunden die Daten verfügbar macht,
+
+• Definition des Zeitpunktes, zu dem der Cloud-Anbieter die Daten für den Cloud-Kunden unzugänglich macht und löscht,
+
+• Verantwortlichkeiten und Mitwirkungspflichten des Cloud-Kunden beim Bereitstellen der Daten.
+
+Die Definitionen orientieren sich am Bedarf sachverständiger Personen potentieller Kunden, um die Eignung des Cloud-Dienstes hinsichtlich der Abhängigkeit vom Cloud-Anbieter sowie rechtlicher und regulatorischer Anforderungen zu beurteilen.",-,n/a
+PI-03,Sichere Datenlöschung,"Die Verfahren des Cloud-Anbieters zur Löschung der Daten des Cloud-Kunden bei Beendigung des Auftragsverhältnisses stellen die Einhaltung der vertraglichen Vereinbarungen sicher (vgl. PI-02).
+
+Die Löschung umfasst Daten in der Umgebung des Cloud-Kunden, Metadaten und Daten in der Datensicherung.
+
+Die Löschverfahren verhindern eine Wiederherstellung mit forensischen Mitteln.",A.7.14,0
+DEV-01,Richtlinien zur Entwicklung/Beschaffung von Informationssystemen,"Richtlinien und Anweisungen mit technischen und organisatorischen Maßnahmen für die sichere Entwicklung des Cloud-Dienstes sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt.
+
+Die Richtlinien und Anweisungen enthalten Vorgaben über den gesamten Lebenszyklus des Cloud-Dienstes und orientieren sich hinsichtlich der folgenden Aspekte an anerkannten Standards und Methoden:
+
+• Sicherheit in der Software-Entwicklung (Anforderungen, Design, Implementierung, Tests und Überprüfungen),
+
+• Sicherheit in der Software-Bereitstellung,
+
+• Sicherheit im Betrieb (Reaktion auf identifizierte Fehler und Schwachstellen).","A.5.8
+A.8.25
+A.8.26
+A.8.27
+A.8.28
+A.8.31",0
+DEV-02,Auslagerung der Entwicklung,"Bei ausgelagerter Entwicklung des Cloud-Dienstes (oder einzelner Systemkomponenten) sind Vorgaben hinsichtlich der folgenden Aspekte vertraglich zwischen Cloud-Anbieter und Auftragnehmer der ausgelagerten Entwicklung zu vereinbaren:
+
+• Sicherheit in der Software-Entwicklung (Anforderungen, Design, Implementierung, Tests und Überprüfungen) gemäß anerkanntem Standard und Methoden,
+
+• Abnahmeprüfung der Qualität der erbrachten Leistungen gemäß den vereinbarten funktionalen und nicht-funktionalen Anforderungen,
+
+• Vorlage von Nachweisen, dass ausreichende Überprüfungen durchgeführt wurden, um das Vorhandensein bekannter Schwachstellen auszuschließen.","A.8.29
+A.8.30",-
+DEV-03,Richtlinien zur Änderung von Informationssystemen,"Richtlinien und Anweisungen mit technischen und organisatorischen Maßnahmen zur Verwaltung von Änderungen (Change Management) an Systemkomponenten des Cloud-Dienstes im Rahmen der Software-Bereitstellung sind hinsichtlich der folgenden Aspekte gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt:
+
+• Kriterien zur Risikobeurteilung, Kategorisierung und Priorisierung von Änderungen und damit verbundene Anforderungen an Art und Umfang durchzuführender Tests sowie erforderliche Genehmigungen für die Entwicklung/Implementierung der Änderung sowie der Freigaben zur Bereitstellung in der Produktionsumgebung durch autorisiertes Personal oder Systemkomponenten,
+
+• Anforderungen an die Durchführung und Dokumentation von Tests,
+
+• Anforderungen an die Funktionstrennung bei Entwicklung, Test und Freigabe von Änderungen,
+
+• Anforderungen zur sachgerechten Information der Cloud-Kunden über Art und Umfang der Änderung sowie daraus resultierende Mitwirkungspflichten gemäß den vertraglichen Vereinbarungen,
+
+• Anforderungen an die Dokumentation von Änderungen in der System-, Betriebs- und Benutzerdokumentation,
+
+• Anforderungen an die Durchführung und Dokumentation von Notfalländerungen, die dem gleichen Sicherheitsniveau wie normale Änderungen genügen müssen.","8.1
+A.8.32",-
+DEV-04,"Programm zur Sicherheitsausbildung und Sensibilisierung bezüglich kontinuierlicher Software-Bereitstellung und zugehöriger Systeme, Komponenten oder Werkzeuge","Der Cloud-Anbieter betreibt ein Programm zur regelmäßigen, zielgruppenorientierten Sicherheitsausbildung und Sensibilisierung der internen und externen Mitarbeiter zu Standards und Methoden der sicheren Software-Entwicklung und Software-Bereitstellung sowie zum Umgang mit den dafür eingesetzten Werkzeugen. Das Programm wird regelmäßig in Bezug auf die gültigen Richtlinien und Anweisungen, die zugewiesenen Rollen und Verantwortlichkeiten sowie die genutzten Werkzeuge überprüft und angepasst.","7.2
+A.6.3
+A.8.32",0
+DEV-05,"Risikobewertung, Kategorisierung und Priorisierung von Änderungen",Änderungen werden gemäß den Richtlinien zum Change Management (vgl. DEV-03) einer Risikobeurteilung hinsichtlich potenzieller Auswirkungen auf die betroffenen Systemkomponenten unterzogen und entsprechend kategorisiert und priorisiert.,"8.1
+A.8.32",-
+DEV-06,Testen der Änderungen,"Änderungen am Cloud-Dienst werden im Rahmen der Software-Entwicklung und Software-Bereitstellung geeigneten Tests unterzogen.
+
+Art und Umfang der Tests entsprechen der Risikobeurteilung. Die Durchführung erfolgt durch angemessen qualifiziertes Personal des Cloud-Anbieters oder durch automatisierte Testverfahren, die den anerkannten Regeln der Technik entsprechen. Cloud-Kunden werden gemäß den vertraglichen Anforderungen in die Tests eingebunden.
+
+Der Schweregrad der in den Tests identifizierten Fehlern und Schwachstellen, welche für die Abnahme relevant sind, wird nach definierten Kriterien beurteilt und Maßnahmen zur zeitnahen Behebung oder Mitigation eingeleitet.","A.8.29
+A.8.32",-
+DEV-07,Protokollierung von Änderungen,"Systemkomponenten und Werkzeuge zur Quellcode-Verwaltung und Software-Bereitstellung, mit denen Änderungen an Systemkomponenten des Cloud-Dienstes in der Produktionsumgebung durchgeführt werden, unterliegen einem Rollen- und Rechtekonzept gemäß IDM-01 und Autorisierungsmechanismen. Sie sind so zu konfigurieren, dass alle Änderungen protokolliert werden und diese somit auf die ausführenden Personen oder Systemkomponenten zurückgeführt werden können.","A.8.4
+A.8.29
+A.8.32",-
+DEV-08,Versionskontrolle,"Verfahren zur Versionskontrolle sind eingerichtet, um Abhängigkeiten einzelner Änderungen nachzuvollziehen und in Folge aufgetretener Fehler oder identifizierter Schwachstellen betroffene Systemkomponenten in ihren vorherigen Zustand zurück zu versetzen.","7.5.3
+A.8.32",0
+DEV-09,Freigaben zur Bereitstellung in der Produktionsumgebung,"Autorisiertes Personal oder Systemkomponenten des Cloud-Anbieters geben auf Basis definierter Kriterien (z. B. Testergebnisse und erforderliche Genehmigungen) Änderungen am Cloud-Dienst frei, bevor diese den Cloud-Kunden in der Produktionsumgebung bereitgestellt werden.
+
+Cloud-Kunden werden gemäß den vertraglichen Anforderungen in die Freigabe eingebunden.",A.8.32,0
+DEV-10,Trennung der Umgebungen,"Produktionsumgebungen sind von Test- oder Entwicklungsumgebungen physisch oder logisch getrennt, um unautorisierte Zugriffe auf Daten der Cloud-Kunden, die Ausbreitung von Schadprogrammen oder Änderungen an Systemkomponenten zu verhindern. Daten aus Produktionsumgebungen werden nicht in Test- oder Entwicklungsumgebungen verwendet, um deren Vertraulichkeit nicht zu gefährden.","A.8.11
+A.8.31",-
+SSO-01,Richtlinien und Anweisungen zur Steuerung und Überwachung Dritter,"Richtlinien und Anweisungen zur Steuerung und Überwachung Dritter (z. B. Dienstleister bzw. Lieferanten), deren Leistungen zur Bereitstellung des Cloud-Dienstes beitragen, sind hinsichtlich der folgenden Aspekte gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt:
+
+• Vorgaben für die Beurteilung der Risiken, die aus dem Bezug von Leistungen Dritter resultieren,
+
+• Vorgaben für die Klassifizierung der Dritten auf Basis einer Risikobeurteilung durch den Cloud-Anbieter und der Feststellung, ob es sich um ein Subdienstleistungsunternehmen handelt (vgl. Ergänzende Information),
+
+• Anforderungen an die Informationssicherheit bei der Verarbeitung, Speicherung oder Übertragung von Informationen durch Dritte, die sich an anerkannten Branchenstandards orientieren,
+
+• Anforderungen an die Sensibilisierung und Schulung des Personals für Informationssicherheit,
+
+• anwendbare rechtliche und regulatorische Anforderungen,
+
+• Anforderungen an den Umgang mit Schwachstellen, Sicherheitsvorfällen und Störungen,
+
+• Vorgaben für die vertragliche Vereinbarung dieser Anforderungen,
+
+• Vorgaben für die Überwachung dieser Anforderungen,
+
+• Vorgaben für die Weitergabe dieser Anforderungen auch an Dienstleister, die von den Dritten eingesetzt werden, soweit Leistungen dieser Dienstleister ebenso zur Bereitstellung des Cloud-Dienstes beitragen.","A.5.19
+A.5.20
+A.5.21
+A.6.3",-
+SSO-02,Risikobeurteilung der Dienstleister und Lieferanten,"Dienstleister und Lieferanten des Cloud-Anbieters werden einer Risikobeurteilung gemäß den Richtlinien und Anweisungen zur Steuerung und Überwachung Dritter unterzogen, bevor sie zur Bereitstellung des Cloud-Dienstes beitragen. Die Angemessenheit der Risikobeurteilung wird während des Leitungsbezugs regelmäßig, mindestens jährlich, durch qualifiziertes Personal des Cloud-Anbieters überprüft.
+
+Die Risikobeurteilung umfasst die Identifikation, Analyse, Bewertung, Behandlung und Dokumentation von Risiken hinsichtlich der folgenden Aspekte:
+
+• Schutzbedarf der Informationen hinsichtlich der Vertraulichkeit, Integrität, Verfügbarkeit und Authentizität, die durch den Dritten verarbeitet, gespeichert oder übertragen werden, 
+
+• Auswirkungen einer Schutzbedarfsverletzung auf die Bereitstellung des Cloud-Dienstes,
+
+• Abhängigkeit des Cloud-Anbieters vom Dienstleister oder Lieferanten hinsichtlich Umfang, Komplexität und Einzigartigkeit der bezogenen Leistung, einschließlich der Betrachtung möglicher Alternativen.","A.5.19
+A.5.20
+A.5.21",-
+SSO-03,Verzeichnis der Dienstleister und Lieferanten,"Der Cloud-Anbieter registriert Dienstleister und Lieferanten, die Leistungen zur Bereitstellung des Cloud-Dienstes beitragen. Folgende Informationen sind nachzuhalten:
+
+• Firmenname
+
+• Anschrift
+
+• Lokationen der Verarbeitung und Speicherung von Daten
+
+• Verantwortlicher Ansprechpartner beim Dienstleister/Lieferanten
+
+• Verantwortlicher Ansprechpartner beim Cloud-Anbieter
+
+• Beschreibung der Leistung
+
+• Klassifizierung auf Basis der Risikobeurteilung
+
+• Beginn des Leistungsbezugs
+
+• Nachweise über die Einhaltung der vertraglich vereinbarten Anforderungen.
+
+Die Angaben im Verzeichnis werden mindestens jährlich auf Vollständigkeit, Richtigkeit und Gültigkeit überprüft. ",-,n/a
+SSO-04,Überwachung der Einhaltung der Anforderungen,"Der Cloud-Anbieter überwacht die Einhaltung der Anforderungen an die Informationssicherheit sowie der anwendbaren rechtlichen und regulatorischen Anforderungen gemäß den Richtlinien und Anweisungen zur Steuerung und Überwachung Dritter.
+
+Die Überwachung umfasst eine regelmäßige Durchsicht der folgenden Nachweise, soweit diese von den Dritten gemäß den vertraglichen Vereinbarungen zur Verfügung zu stellen sind:
+
+• Berichte über die Qualität der Leistungserbringung,
+
+• Zertifikate über die Konformität der Managementsysteme mit internationalen Standards,
+
+• Berichterstattungen unabhängiger Dritter über die Angemessenheit und Wirksamkeit ihres dienstleistungsbezogenen internen Kontrollsystems,
+
+• Aufzeichnungen zum Umgang der Dritten mit Schwachstellen, Sicherheitsvorfällen und Störungen.
+
+Die Regelmäßigkeit der Durchführung entspricht der Klassifizierung der Dritten auf Basis der Risikobeurteilung des Cloud-Anbieters (vgl. SSO-02). Die Ergebnisse der Überwachung fließen in die Überprüfung der Risikobeurteilung ein.
+
+Identifizierte Verstöße und Abweichungen werden gemäß dem Verfahren zum Umgang mit Risiken (vgl. OIS-07) einer Analyse, Bewertung und Behandlung unterzogen.",A.5.22,-
+SSO-05,Ausstiegsstrategie für den Bezug von Leistungen,"Der Cloud-Anbieter hat Ausstiegsstrategien für den Bezug von Leistungen definiert und dokumentiert, bei denen die Risikobeurteilung der Dienstleister und Lieferanten hinsichtlich Umfang, Komplexität und Einzigartigkeit der bezogenen Leistung, eine sehr hohe Abhängigkeit ergab (vgl. ergänzende Informationen).
+
+Die Ausstiegsstrategien sind mit den Plänen zur betrieblichen Kontinuität abgestimmt und umfassen die folgenden Aspekte:
+
+• Analyse der potenziellen Kosten, Auswirkungen, Ressourcen und zeitlichen Auswirkungen des Übergangs einer bezogenen Leistung auf einen alternativen Dienstleister oder Lieferanten,
+
+• Definition und Zuweisung von Rollen, Verantwortlichkeiten und ausreichenden Ressourcen zur Durchführung der Aktivitäten für einen Übergang,
+
+• Definition von Erfolgskriterien für den Übergang,
+
+• Definition von Indikatoren für die Überwachung der Leistungserbringung, die bei inakzeptablen Ergebnissen den Ausstieg für den Bezug der Leistung einleiten sollten. ",A.5.23,-
+SIM-01,Richtlinie für den Umgang mit Sicherheitsvorfällen,"Richtlinien und Anweisungen mit technischen und organisatorischen Maßnahmen sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt, um eine schnelle, effektive und ordnungsgemäße Reaktion auf alle bekannten Sicherheitsvorfälle zu gewährleisten.
+
+Der Cloud-Anbieter definiert Vorgaben zur Klassifizierung, Priorisierung und Eskalation von Sicherheitsvorfällen und schafft Schnittstellen zum Incident Management und zum Business Continuity Management.
+
+Zusätzlich hat der Cloud-Anbieter ein ""Computer Emergency Response Team"" (CERT) eingerichtet, das zur koordinierten Lösung von konkreten Sicherheitsvorfällen beiträgt.
+
+Von Sicherheitsvorfällen betroffene Kunden werden zeitnah und in angemessener Form darüber informiert.","A.5.24
+A.5.25
+A.5.26
+A.5.27
+A.6.8",-
+SIM-02,Bearbeitung von Sicherheitsvorfällen,"Qualifiziertes Personal des Cloud Anbieters führt, gegebenenfalls gemeinsam mit externen Sicherheitsdienstleistern, für Ereignisse die einen Sicherheitsvorfall darstellen könnten, Klassifizierungen, Priorisierungen sowie Ursachenanalysen durch.","A.5.5
+A.5.6
+A.5.7
+A.5.24
+A.5.25",+
+SIM-03,Dokumentation und Berichterstattung über Sicherheitsvorfälle,Nach Verarbeitung eines Sicherheitsvorfalls wird die Lösung gemäß den vertraglichen Vereinbarungen dokumentiert und der Bericht zur abschließenden Kenntnisnahme oder ggf. als Bestätigung an betroffene Kunden übermittelt.,"A.5.24
+A.5.28",-
+SIM-04,Verpflichtung der Nutzer zur Meldung von Sicherheitsvorfällen an eine zentrale Stelle,"Der Cloud-Anbieter informiert Mitarbeiter und externe Geschäftspartner über ihre Verpflichtungen. Falls erforderlich willigen sie dazu ein oder verpflichten sich vertraglich dazu, alle Sicherheitsereignisse, die ihnen bekannt werden und direkt mit dem vom Cloud-Anbieter bereitgestellten Cloud-Dienst in Verbindung stehen, zeitnah an eine zuvor benannte zentrale Stelle des Cloud-Anbieters zu melden.
+
+Der Cloud-Anbieter kommuniziert, dass ""Falschmeldungen"" von Ereignissen, die sich im Nachhinein nicht als Vorfälle herausstellen, keine negativen Folgen nach sich ziehen.",A.6.8,-
+SIM-05,Auswertung und Lernprozess,"Mechanismen sind vorhanden, um Art und Umfang der Sicherheitsvorfälle messen und überwachen sowie wie an unterstützende Stellen melden zu können. Die aus der Auswertung gewonnenen Informationen werden dazu verwendet, wiederkehrende oder mit erheblichen Folgen verbundene Vorfälle zu identifizieren und Notwendigkeiten für erweiterte Schutzmaßnahmen festzustellen.","A.5.7
+A.5.25
+A.5.26
+A.5.27
+A.6.8",+
+BCM-01,Verantwortung durch die Unternehmensleitung,"Die oberste Leitung des Cloud-Anbieters ist als Prozesseigentümer des Kontinuitäts- und Notfallmanagements benannt und trägt die Verantwortung für die Etablierung des Prozesses im Unternehmen und die Einhaltung der Leitlinien. Sie muss dafür sorgen, dass ausreichende Ressourcen für einen effektiven Prozess bereitgestellt werden.
+
+Personen in der Unternehmensleitung und anderen relevanten Führungspositionen demonstrieren Führung und Engagement in Bezug auf dieses Thema, indem sie beispielsweise die Mitarbeiter dazu auffordern beziehungsweise ermutigen, zu der Effektivität des Kontinuitäts- und Notfallmanagements aktiv beizutragen.","A.5.29
+A.5.30",-
+BCM-02,Richtlinien und Verfahren zur Business Impact Analyse,"Richtlinien und Anweisungen zum Ermitteln von Auswirkungen etwaiger Störungen des Cloud-Dienstes oder des Unternehmens sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt.
+
+Mindestens die folgenden Aspekte werden dabei berücksichtigt:
+
+• mögliche Szenarien basierend auf einer Risikoanalyse,
+
+• Identifizierung kritischer Produkte und Dienstleistungen,
+
+• Identifizierung von Abhängigkeiten, einschließlich der Prozesse (inkl. dafür benötigter Ressourcen), Anwendungen, Geschäftspartner und Dritter,
+
+• Erfassung von Bedrohungen gegenüber kritischen Produkten und Dienstleistungen,
+
+• Ermittlung von Auswirkungen resultierend aus geplanten und ungeplanten Störungen und die Veränderung im Laufe der Zeit,
+
+• Feststellung der maximal vertretbaren Dauer von Störungen,
+
+• Feststellung der Prioritäten zur Wiederherstellung,
+
+• Feststellung zeitlicher Zielvorgaben zur Wiederaufnahme kritischer Produkte und Dienstleistungen innerhalb des maximal vertretbaren Zeitraums (RTO),
+
+• Feststellung zeitlicher Vorgaben zum maximal vertretbaren Zeitraum, in dem Daten verloren und nicht wiederhergestellt werden können (RPO),
+
+• Abschätzung der zur Wiederaufnahme benötigten Ressourcen. ","A.5.29
+A.5.30",-
+BCM-03,Planung der Betriebskontinuität,"Basierend auf der Business Impact Analyse wird ein einheitliches Rahmenwerk zur Planung der betrieblichen Kontinuität und des Geschäftsplans eingeführt, dokumentiert und angewendet, um sicherzustellen, dass alle Pläne konsistent sind. Die Planung richtet sich nach etablierten Standards, was in einem ""Statement of Applicability"" nachvollziehbar festgeschrieben ist.
+
+Pläne zur betrieblichen Kontinuität und Notfallpläne berücksichtigen dabei folgende Aspekte:
+
+• Definierter Zweck und Umfang unter Beachtung der relevanten 
+Abhängigkeiten,
+
+• Zugänglichkeit und Verständlichkeit der Pläne für Personen, die danach handeln sollen,
+
+• Eigentümerschaft durch mindestens eine benannte Person, die für die Überprüfung, Aktualisierung und Genehmigung zuständig ist,
+
+• Festgelegte Kommunikationswege, Rollen und Verantwortlichkeiten einschließlich Benachrichtigung des Kunden,
+
+• Wiederherstellungsverfahren, manuelle Übergangslösungen und Referenzinformationen (unter Berücksichtigung der Priorisierung bei der Wiederherstellung von Cloud-Infrastruktur Komponenten und Diensten sowie Ausrichtung an Kunden),
+
+• Methoden zur Inkraftsetzung der Pläne,
+
+• Kontinuierlicher Verbesserungsprozess der Pläne,
+
+• Schnittstellen zum Security Incident Management.","A.5.29
+A.5.30",-
+BCM-04,"Verifizierung, Aktualisierung und Test der Betriebskontinuität","Die Business Impact Analyse sowie die Pläne zur betrieblichen Kontinuität und Notfallpläne werden regelmäßig (mindestens jährlich) oder nach wesentlichen organisatorischen oder umgebungsbedingten Veränderungen überprüft, aktualisiert und getestet. Tests beziehen betroffene Kunden (Tenants) und relevante Dritte mit ein. Die Tests werden dokumentiert und Ergebnisse werden für zukünftige Maßnahmen der betrieblichen Kontinuität berücksichtigt.","A.5.29
+A.5.30",-
+COM-01,"Identifizierung anwendbarer gesetzlicher, regulatorischer, selbstauferlegter oder vertraglicher Anforderungen","Die für die Informationssicherheit des Cloud-Dienstes relevanten gesetzlichen, regulatorischen, selbstauferlegten und vertraglichen Anforderungen sowie die Verfahren des Cloud-Anbieters zur Einhaltung dieser Anforderungen sind ausdrücklich definiert und dokumentiert.",A.5.31,0
+COM-02,Richtlinie für die Planung und Durchführung von Audits,"Richtlinien und Anweisungen mit Vorgaben für die Planung und Durchführung von Audits sind gemäß SP-01 dokumentiert, kommuniziert und bereitgestellt und adressieren folgende Aspekte:
+
+• Beschränkung auf Lesezugriff für Systemkomponenten gemäß der vereinbarten Prüfungsplanung und wie es für die Durchführung der Aktivitäten notwendig ist,
+
+• Aktivitäten, die zu Störungen des Cloud-Dienstes oder Verstößen gegen vertragliche Anforderungen führen können, werden während der planmäßigen Wartungsfester oder außerhalb der Zeiten von Lastspitzen durchgeführt,
+
+• Protokollierung und Überwachung der Aktivitäten.","9.2
+A.8.34",-
+COM-03,Interne Audits des Informationssicherheitsmanagementsystems,"Qualifiziertes Personal überprüft in regelmäßigen Abständen, mindestens jährlich, in internen Audits die Compliance des Informationssicherheitsmanagementsystems mit den relevanten und anwendbaren gesetzlichen, regulatorischen, selbstauferlegten oder vertraglichen Anforderungen (vgl. COM-01) sowie die Einhaltung der Richtlinien und Arbeitsanweisungen (vgl. SP-01) in dessen Geltungsbereich (vgl. OIS-01).
+
+Identifizierte Schwachstellen und Abweichungen werden gemäß dem Verfahren zum Umgang mit Risiken (vgl. OIS-06) einer Risikobeurteilung unterzogen und Maßnahmen zur Behandlung definiert und nachverfolgt (vgl. OPS-18).","9.2
+9.3
+A.5.36
+A.8.34",0
+COM-04,Informationen über die Informationssicherheitsleistung und Managementbewertung des ISMS,"Die oberste Leitung des Cloud-Anbieters wird in regelmäßigen Abständen über die Informationssicherheitsleistung im Anwendungsbereich des ISMS informiert, um dessen fortdauernde Eignung, Angemessenheit und Wirksamkeit sicherzustellen.
+Die Informationen fließen mindestens jährlich in die Managementbewertung des ISMS ein.",9.3,0
+INQ-01,Juristische Beurteilung von Ermittlungsanfragen,"Ermittlungsanfragen staatlicher Stellen werden einer juristischen Beurteilung durch qualifiziertes Personal des Cloud-Anbieters unterzogen.
+
+Im Rahmen der Beurteilung wird festgestellt, ob sich die staatliche Stelle auf eine anwendbare sowie rechtsgültige Rechtsgrundlage stützt und welche weiteren Schritte einzuleiten sind.",-,n/a
+INQ-02,Information der Cloud-Kunden über Ermittlungsanfragen,"Der Cloud-Anbieter informiert den oder die betroffenen Cloud-Kunden nach Eingang einer Ermittlungsanfrage einer staatlichen Stelle unverzüglich, soweit die anwendbare Rechtsgrundlage, auf die sich die staatliche Stelle stützt, dies nicht untersagt oder eindeutige Hinweise auf rechtswidrige Handlungen im Zusammenhang mit der Nutzung des Cloud-Dienstes vorliegen.",-,n/a
+INQ-03,Voraussetzungen für den Zugriff auf oder der Offenlegung von Daten bei Ermittlungsanfragen,"Der Zugriff auf oder die Offenlegung von Daten der Cloud-Kunden im Rahmen von Ermittlungsanfragen staatlicher Stellen erfolgt nur unter der Voraussetzung, dass die juristische Beurteilung des Cloud-Anbieters ergab, dass eine anwendbare und rechtsgültige Rechtsgrundlage vorliegt und der Ermittlungsanfrage auf dieser Grundlage stattgegeben werden muss.",-,n/a
+INQ-04,Begrenzung des Zugriffs auf oder der Offenlegung von Daten bei Ermittlungsanfragen,"Die Verfahren des Cloud-Anbieters für das Einrichten des Zugriffs auf oder das Offenlegen von Daten der Cloud-Kunden im Rahmen von Ermittlungsanfragen staatlicher Stellen gewährleisten, dass diese nur Zugriff auf oder Einsicht in diejenigen Daten erhalten, die Gegenstand der Ermittlungsanfrage sind.
+
+Soweit keine klare Eingrenzung der Daten möglich ist, anonymisiert oder pseudonymisiert der Cloud-Anbieter die Daten, so dass staatliche Stellen diese nur solchen Cloud-Kunden zuordnen können, die Gegenstand der Ermittlungsanfrage sind.",-,n/a
+PSS-01,Leitlinien und Empfehlungen für Cloud-Kunden,"Der Cloud-Anbieter macht Cloud-Kunden Leitlinien und Empfehlungen für die sichere Nutzung des bereitgestellten Cloud-Dienstes zugänglich. Die darin enthaltenen Informationen sind geeignet, die Cloud-Kunden bei der sicheren Konfiguration, Installation und Nutzung des Cloud-Dienstes zu unterstützen, soweit dies für den Cloud-Dienst anwendbar ist und im Verantwortungsbereich der Cloud-Kunden liegt.
+
+Art und Umfang der bereitgestellten Informationen orientieren sich am Bedarf sachverständigen Personals der Cloud-Kunden, die Vorgaben zur Informationssicherheit machen, diese umsetzen oder die Umsetzung überprüfen (z. B. IT, Compliance, Interne Revision). Die Informationen in den Leitlinien und Empfehlungen für die sichere Nutzung des bereitgestellten Cloud-Dienstes adressieren insbesondere die folgenden Aspekte, soweit diese für den Cloud-Dienst anwendbar sind:
+
+• Anleitungen bezüglich der sicheren Konfiguration
+
+• Informationsquellen zu bekannten Schwachstellen und Aktualisierungsmechanismen
+
+• Fehlerbehandlungs- und Protokollierungsmechanismen
+
+• Authentisierungsmechanismen
+
+• Rollen- und Rechtekonzept, inkl. risikobehafteter Kombinationen
+
+• Dienste und Funktionen zur Administration des Cloud-Dienstes durch privilegierte Benutzer.
+
+Die Informationen werden so gepflegt, dass sie für den bereitgestellten Cloud-Dienst in der für die produktive Nutzung vorgesehenen Version anwendbar sind. ",-,n/a
+PSS-02,Identifikation von Schwachstellen des Cloud-Dienstes,"Der Cloud-Anbieter überprüft den Cloud-Dienst durch geeignete Verfahren auf Schwachstellen, die durch den Softwareentwicklungsprozess in den Cloud-Dienst einfließen können.
+
+Die Verfahren zur Identifikation solcher Schwachstellen sind Bestandteil des Softwareentwicklungsprozesses und umfassen, je nach Risikobewertung, die folgenden Aktivitäten:
+
+• Statische Code-Analyse
+
+• Dynamische Code-Analysen
+
+• Code Reviews durch qualifiziertes Personal des Cloud-Anbieters
+
+• Einholen von Information über bestätigte Schwachstellen in Software-Bibliotheken, die von Dritten bereitgestellt und im eigenen Cloud-Dienst genutzten werden.
+
+Der Schweregrad identifizierter Schwachstellen wird nach definierten Kriterien beurteilt und Maßnahmen zur zeitnahen Behebung oder Mitigation eingeleitet.",A.8.8,-
+PSS-03,Online-Register bekannter Schwachstellen,"Der Cloud-Anbieter betreibt oder verweist auf ein tagesaktuell gepflegtes Online-Register bekannter Schwachstellen, die den bereitgestellten Cloud-Dienst sowie vom Cloud-Anbieter bereitgestellte Assets betreffen, die Cloud-Kunden in ihrem Verantwortungsbereich selbst installieren, bereitstellen oder betreiben müssen.
+
+Die Darstellung der Schwachstellen folgt dem Common Vulnerability Scoring System (CVSS). Das Online-Register ist für jeden Cloud-Kunden leicht einsehbar. Die enthaltenen Informationen bilden eine geeignete Grundlage für die Risikobeurteilung und etwaige Folgemaßnahmen auf Seiten der Cloud-Kunden.
+
+Zu jeder Schwachstelle ist angegeben, ob für diese entsprechend Software-Aktualisierungen (z. B. Patch, Update) verfügbar sind, bis wann diese ausgerollt werden und ob dies durch den Cloud-Anbieter, den Cloud-Kunden oder beide gemeinsam erfolgt.",-,n/a
+PSS-04,Fehlerbehandlungs- und Protokollierungsmechanismen,"Der bereitgestellte Cloud-Dienst ist mit Fehlerbehandlungs- und Protokollierungsmechanismen ausgestattet. Mittels dieser können Cloud-Kunden sicherheitsrelevante Informationen über den Sicherheitsstatus Cloud-Dienstens sowie die von ihm bereitgestellten Daten, Dienste oder Funktionen abrufen.
+
+Die Informationen sind so detailliert, dass Cloud-Kunden folgende Aspekte überprüfen können, soweit diese für den Cloud-Dienst anwendbar sind:
+
+• auf welche Daten, Dienste oder Funktionen, die dem Cloud-Kunden im Cloud-Dienst zur Verfügung stehen, wann und von wem zugegriffen wurde (Protokoll/Audit Logs),
+
+• Störungen beim Verarbeiten von automatischen oder manuellen Aktionen,
+
+• Änderungen sicherheitsrelevanter Parameter der Konfiguration, der Fehlerbehandlungs- und Protokollierungsmechanismen, der Authentifizierung von Benutzern, der Autorisierung von Aktionen, der Kryptographie und der Kommunikationssicherheit.
+
+Die protokollierten Informationen sind vor unautorisierten Zugriffen sowie Veränderungen geschützt und können vom Cloud-Kunden gelöscht werden.
+
+Falls der Cloud-Kunde für die Aktivierung oder Art und Umfang der Protokollierung zuständig ist, stellt der Cloud-Anbieter geeignete Protokollierungsfunktionen bereit.",-,n/a
+PSS-05,Authentisierungsmechanismen,"Der bereitgestellte Cloud-Dienst bietet Authentisierungsmechanismen, mit denen für Benutzer, IT-Komponenten oder Anwendungen im Verantwortungsbereich der Cloud-Kunden eine starke Authentisierung (z. B. durch zwei oder mehrere Faktoren) erzwungen werden kann.
+
+Diese Authentisierungsmechanismen sind an allen Zugangspunkten eingerichtet, die Benutzern, IT-Komponenten oder Anwendungen eine Interaktion mit dem Cloud-Dienst ermöglichen. 
+Für privilegierte Benutzer, IT-Komponenten oder Anwendungen sind diese Authentisierungsmechanismen erzwungen. ",-,n/a
+PSS-06,Session Management,"Zum Schutz von Vertraulichkeit, Verfügbarkeit, Integrität und Authentizität bei Interaktionen mit dem Cloud-Dienst wird ein geeignetes Session Management eingesetzt, welches mindestens dem Stand der Technik entspricht und gegen bekannte Angriffe geschützt ist. Es sind Mechanismen implementiert, die nach erkannter Inaktivität einer Session diese invalidiert. Die Erkennung der Inaktivität kann durch Zeitmessung erfolgen. In diesem Falle ist das Zeitintervall vom Cloud-Anbieter oder – soweit technisch möglich – durch den Cloud-Kunden konfigurierbar. ",-,n/a
+PSS-07,Vertraulichkeit von Authentisierungsinformationen,"Soweit Passwörter als Authentisierungsinformationen für den Cloud-Dienst eingesetzt werden, ist deren Vertraulichkeit durch folgende Verfahren sichergestellt:
+
+• Benutzer können das Passwort initial selbst erstellen oder müssen ein initial vorgegebenes Passwort bei der ersten Anmeldung am Cloud-Dienst ändern. Ein initial vorgegebenes Passwort verliert nach maximal 14 Tagen seine Gültigkeit.
+
+• Beim Erstellen von Passwörtern wird das Einhalten der Anforderungen des Cloud-Anbieters (vgl. IDM-09) oder des Cloud-Kunden an Länge und Komplexität technisch erzwungen.
+
+• Der Benutzer wird über das Ändern oder Zurücksetzen des Passworts informiert.
+
+• Die serverseitige Speicherung erfolgt unter Anwendung kryptographisch starker Hash-Funktionen, die dem Stand der Technik entsprechen, in Kombination mit mindestens 32 Bit langen Salt-Werten.",-,n/a
+PSS-08,Rollen- und Rechtekonzept,"Der Cloud-Anbieter macht Cloud-Kunden ein Rollen- und Rechtekonzept zum Verwalten von Zugangs- und Zugriffsberechtigungen zugänglich. Darin sind Rechteprofile für die vom Cloud-Dienst bereitgestellten Funktionen beschrieben.
+
+Die Rechteprofile sind geeignet, den Cloud-Kunden eine Verwaltung der Zugangs- und Zugriffsberechtigungen gemäß des Prinzips der geringsten Berechtigung („Least-Privilege-Prinzip“) und wie es für die Aufgabenwahrnehmung notwendig ist („Need-to-Know-Prinzip“) zu ermöglichen und den Grundsatz der Funktionstrennung zwischen operativen und kontrollierenden Funktionen („Separation of Duties“) umzusetzen.","A.5.15
+A.8.3
+A.8.5",-
+PSS-09,Autorisierungsmechanismen,"Der Zugriff auf die vom Cloud-Dienst bereitgestellten Funktionen wird durch Zugriffskontrollen (Autorisierungsmechanismen) eingeschränkt, die überprüfen, ob Benutzer, IT-Komponenten oder Anwendungen zur Durchführung bestimmter Aktionen berechtigt sind.
+
+Der Cloud-Anbieter validiert die Funktionsfähigkeit der Autorisierungsmechanismen bevor den Cloud-Kunden neue Funktionen bereitgestellt werden sowie bei Änderungen an den Autorisierungsmechanismen bestehender Funktionen (vgl. DEV-06). Der Schweregrad identifizierter Schwachstellen wird nach definierten Kriterien beurteilt, die auf branchenüblichen Metriken basieren (z. B. Common Vulnerability Scoring System), und Maßnahmen zur zeitnahen Behebung oder Mitigation eingeleitet. Nicht behobene Schwachstellen werden im Online-Register bekannter Sicherheitslücken (vgl. PSS-02) dargestellt. ","A.5.15
+A.8.3
+A.8.5",-
+PSS-10,Software-defined Networking,"Soweit der Cloud-Dienst Funktionen für Software-defined Networking (SDN) bietet, wird die Vertraulichkeit der Daten des Cloud-Kunden durch geeignete SDN-Verfahren sichergestellt.
+
+Der Cloud-Anbieter validiert die Funktionsfähigkeit der SDN-Funktionen, bevor er den Cloud-Kunden neue SDN-Funktionen bereitstellt oder bestehende SDN-Funktionen ändert. Identifizierte Mängel werden risikoorientiert beurteilt und behoben.",-,n/a
+PSS-11,Images für virtuelle Maschinen und Container,"Soweit Cloud-Kunden mit dem Cloud-Dienst virtuelle Maschinen oder Container betreiben, hat der Cloud-Anbieter folgende Aspekte sicherzustellen:
+
+• Der Cloud-Kunde kann die Auswahl von Images von virtuellen Maschinen oder Containern gemäß seinen Vorgaben einschränken, so dass Benutzer dieses Cloud-Kunden nur die gemäß diesen Einschränkungen freigegebenen Images oder Container starten können.
+
+• Falls der Cloud-Anbieter dem Cloud-Kunden Images von virtuellen Maschinen oder Containern zur Verfügung stellt, informiert er in geeigneter Weise den Cloud-Kunden über die gegenüber der Vorversion vorgenommenen Änderungen.
+
+• Die vom Cloud-Anbieter bereitgestellten Images sind nach allgemein akzeptierten Branchenstandards gehärtet.",-,n/a
+PSS-12,Lokationen der Datenverarbeitung und -speicherung,Der Cloud-Kunde ist in der Lage die Lokationen (Ort/Land) der Datenverarbeitung und -speicherung einschl. der Datensicherungen gemäß der vertraglich zur Verfügung stehenden Optionen festzulegen. Dies muss durch die Cloud Architektur sichergestellt sein.,-,n/a
